@@ -1,0 +1,3 @@
+setenv bootargs 'mem=96M quiet console=ttyAMA0,115200 clk_ignore_unused rw root=/dev/mtdblock5 rootfstype=jffs2 mtdparts=hi_sfc:384K(u-boot-GR01V2_2_2GDDR3.bin),64K(rawparam),64K(rawparambak),2944K(media_app_zip.bin),2560K(uImage),1920K(rootfs.jffs2),8064K(appfs.jffs2)'
+setenv bootcmd 'sf probe 0;sf read 0x84000000 0x60000 0x10000;sf read 0x84100000 0x70000 0x10000;cread 0x84000000 0x84100000 0x10000 0x80100000;go_cpu1 0x80200000 0x89000000 0x80000 0x2e0000;sf read 0x84000000 0x360000 0x280000;bootm 0x84000000'
+setenv swverv2 'S2_GR01V2_2_2GDDR3_0303111844'
