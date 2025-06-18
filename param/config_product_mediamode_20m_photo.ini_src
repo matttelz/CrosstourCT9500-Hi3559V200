@@ -1,0 +1,170 @@
+; ============= VideoMode Specified Configure =============
+[common]
+mediamode          = "HI_PDT_MEDIAMODE_20M_PHOTO"
+
+; ============= VB Configure =============
+[vb]
+max_poolcnt        = "6"
+[vb.pool.0]
+blk_size           = "29614080"; align(5120,128)*3840*1.5+align(5120*24,128) 29614080=29491200+122880
+blk_count          = "3"
+[vb.pool.1]
+blk_size           = "18504064"; align(4000,128)*3000*1.5+align(3000*24,128) 18504064
+blk_count          = "4"
+[vb.pool.2]
+blk_size           = "18432000"; align(5120,128)*3840*1.5
+blk_count          = "6"
+[vb.pool.3]
+blk_size           = "4536064"; align(2000*1500*1.5+1500*24,128)
+blk_count          = "0"
+[vb.pool.4]
+blk_size           = "1105920"; align(960,128)*720*1.5
+blk_count          = "5"
+[vb.pool.5]
+blk_size           = "898560"; 1024*576*1.5+576*24
+blk_count          = "5"
+
+; ============= Vcapture Configure =============
+[vcap.0.sensor]
+res_width          = "4000"
+res_height         = "3000"
+wdr_mode           = "WDR_MODE_NONE";
+max_framerate      = "10"
+sensor_mode        = "4"
+[vcap.0.device]
+res_width          = "4000"
+res_height         = "3000"
+wdr_mode           = "WDR_MODE_NONE";
+[vcap.0.pipe.0]
+src_framerate      = "10"
+dst_framerate      = "10"
+vi_vpss_mode       = "VI_OFFLINE_VPSS_OFFLINE"
+[vcap.0.pipe.0.scene]
+linear_param_idx   = "1"
+hdr_param_idx      = "1"
+mfnr_param_idx     = "1"
+[vcap.0.pipe.0.isp]
+res_width          = "4000"
+res_height         = "3000"
+framerate          = "10"
+[vcap.0.pipe.0.chn.0]
+dst_res_width      = "4000"
+dst_res_height     = "3000"
+src_framerate      = "10"
+dst_framerate      = "10"
+ldc_support        = "1"; support ldc or not in current mediamode
+dis_support        = "0"; support dis or not in current mediamode
+dis_accuracy       = "DIS_MOTION_LEVEL_HIGH";HIGH/NORMAL/LOW
+[vcap.0.pipe.1]
+src_framerate      = "10"
+dst_framerate      = "10"
+vi_vpss_mode       = "VI_OFFLINE_VPSS_OFFLINE"
+[vcap.0.pipe.1.scene]
+linear_param_idx   = "1"
+hdr_param_idx      = "1"
+mfnr_param_idx     = "1"
+[vcap.0.pipe.1.isp]
+res_width          = "4000"
+res_height         = "3000"
+framerate          = "10"
+[vcap.0.pipe.1.chn.0]
+dst_res_width      = "4000"
+dst_res_height     = "3000"
+src_framerate      = "10"
+dst_framerate      = "10"
+ldc_support        = "1"; support ldc or not in current mediamode
+dis_support        = "0"; support dis or not in current mediamode
+dis_accuracy       = "DIS_MOTION_LEVEL_HIGH";HIGH/NORMAL/LOW
+
+; ============= Vprocessor Configure =============
+[vpss.0]
+max_width          = "4000"
+max_height         = "3000
+src_framerate      = "10"
+dst_framerate      = "10"
+[vpss.0.vport.0]
+src_framerate      = "5"
+dst_framerate      = "5"
+res_width          = "5120"
+res_height         = "3840"
+[vpss.0.vport.1]
+src_framerate      = "10"
+dst_framerate      = "10"
+res_width          = "1024"
+res_height         = "576"
+[vpss.0.vport.2]
+src_framerate      = "10"
+dst_framerate      = "10"
+res_width          = "960"
+res_height         = "720"
+
+[vpss.1]
+max_width          = "0"
+max_height         = "0"
+src_framerate      = "0"
+dst_framerate      = "0"
+[vpss.1.vport.0]
+src_framerate      = "0"
+dst_framerate      = "0"
+res_width          = "0"
+res_height         = "0"
+[vpss.1.vport.1]
+src_framerate      = "0"
+dst_framerate      = "0"
+res_width          = "0"
+res_height         = "0"
+[vpss.1.vport.2]
+src_framerate      = "0"
+dst_framerate      = "0"
+res_width          = "0"
+res_height         = "0"
+
+; ============= Vencoder Configure =============
+[venc.0]
+bufsize            = "0 "; bytes
+res_width          = "0"
+res_height         = "0"
+src_framerate      = "0"
+dst_framerate      = "0"
+gop                = "0"
+h265bitrate        = "0"; kbps
+h264bitrate        = "0"
+stat_time          = "2"; second
+mpf_size_width     = "0"
+mpf_size_height    = "0"
+[venc.1]
+bufsize            = "819200 "; bytes
+res_width          = "1024"
+res_height         = "576"
+src_framerate      = "10"
+dst_framerate      = "10"
+gop                = "10"
+h265bitrate        = "2048"; kbps
+h264bitrate        = "2048"
+stat_time          = "2"; second
+mpf_size_width     = "0"
+mpf_size_height    = "0"
+[venc.2]
+bufsize            = "29491200"; bytes
+res_width          = "5120"
+res_height         = "3840"
+src_framerate      = "5"
+dst_framerate      = "5"
+gop                = "5"
+h265bitrate        = "0"; kbps
+h264bitrate        = "0"
+stat_time          = "2"; second
+mpf_size_width     = "5120"
+mpf_size_height    = "3840"
+[venc.3]
+bufsize            = "32768"; bytes
+res_width          = "160"
+res_height         = "120"
+src_framerate      = "10"
+dst_framerate      = "10"
+gop                = "0"
+h265bitrate        = "0"; Kbps
+h264bitrate        = "0"
+stat_time          = "2"; second
+mpf_size_width     = "0"
+mpf_size_height    = "0"
