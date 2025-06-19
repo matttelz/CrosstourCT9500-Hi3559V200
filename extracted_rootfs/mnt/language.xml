@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<language id="language" languageinfo="en:english;zh:chinese;fr:French;de:German;it:Italian;ru:Russian;es:Spanish(Eu);ja:;zh_HK:繁體中文" locale="zh">
+    <!-- Mode Page -->
+    <lanstr id="STRING_WORK_MODE" en="Work Mode" zh="工作模式"/>
+    <lanstr id="STRING_PHOTO_NORMAL" en="Photo" zh="单拍"/>
+    <lanstr id="STRING_PHOTO_DELAY" en="Delay" zh="延时拍照"/>
+    <lanstr id="STRING_MULTI_BURST" en="BurstMode" zh="多拍"/>
+    <lanstr id="STRING_MULTI_LAPSE" en="Lapse" zh="缩时拍照"/>
+    <lanstr id="STRING_RECORD_NORMAL" en="Normal" zh="普通录像"/>
+    <lanstr id="STRING_RECORD_LOOP" en="Loop Video" zh="循环录像"/>
+    <lanstr id="STRING_RECORD_LAPSE" en="RecLpse" zh="缩时录像"/>
+    <lanstr id="STRING_RECORD_SLOW" en="Slow" zh="慢速录像"/>
+    <lanstr id="STRING_RECORD_SNAP" en="RecSnap" zh="录中拍"/>
+    <!-- Quick Page -->
+    <lanstr id="STRING_QUICK_TITLE" en="Quick Page" zh="快捷界面"/>
+    <lanstr id="STRING_FILELIST" en="Filelist" zh="相册"/>
+    <lanstr id="STRING_WIFI" en="WiFi" zh="WiFi"/>
+    <lanstr id="STRING_POWER_OFF" en="ShutDown" zh="关机"/>
+    <lanstr id="STRING_LOCK_SCREEN" en="Lock" zh="锁屏"/>
+    <!-- Filelist Page -->
+    <lanstr id="STRING_FILELIST_INFO_src" en="File List" zh="相册"/>
+    <!-- Dialog -->
+    <lanstr id="STRING_DIALOG_NOTICE_src" en="Notice" zh="注意"/>
+    <lanstr id="STRING_DIALOG_ASK_src" en="Are you sure?" zh="确定吗?"/>
+    <lanstr id="STRING_DIALOG_Delete_ASK_src" en="Are you sure delete files?" zh="确定要删除文件吗?"/>
+    <lanstr id="STRING_CANCEL_src" en="Cancel_tmp" fr="Cancel" de="Cancel" it="Cancel" ru="Cancel" es="Cancel" zh="取消" ja="Cancel" />
+    <lanstr id="STRING_CONFIRM_src" en="Confirm" fr="Confirm" de="Confirm" it="Confirm" ru="Confirm" es="Confirm" zh="确定" ja="Confirm" />
+    <!-- Playback Page -->
+    <lanstr id="STRING_PLAYBACK_SPEED_src" en="x1" zh="x1"/>
+    <!-- Set Page -->
+    <lanstr id="STRING_MODE_SINGLE_PHOTO" en="SingSnap" zh="单拍"/>
+    <lanstr id="STRING_MODE_DELAY_PHOTO" en="DlaySnap" zh="延时拍照"/>
+    <lanstr id="STRING_MODE_LAPSE_PHOTO" en="LpseSnap" zh="缩时拍照"/>
+    <lanstr id="STRING_MODE_BURST" en="BurstSnap" zh="多拍"/>
+    <lanstr id="STRING_MODE_NORM_REC" en="NormRec" zh="普通录像"/>
+    <lanstr id="STRING_MODE_LOOP_REC" en="LoopRec" zh="循环录像"/>
+    <lanstr id="STRING_MODE_LAPSE_REC" en="LpseRec" zh="缩时录像"/>
+    <lanstr id="STRING_MODE_SLOW_REC" en="SlowMotion" zh="慢速录像"/>
+    <lanstr id="STRING_MODE_RECSNAP" en="RecSnap" zh="录中拍"/>
+
+    <lanstr id="STRING_SET_INFO" en="Settings" zh="设置"/>
+    <lanstr id="STRING_MEDIA" en="Media" zh="媒体"/>
+    <lanstr id="STRING_POWERON_ACTIONS" en="Power On Actions" zh="开机行为"/>
+    <lanstr id="STRING_SYSTEM_DORMANT" en="System Dormant" zh="系统休眠"/>
+    <lanstr id="STRING_SCREEN_DORMANT" en="Screen Dormant" zh="屏幕休眠"/>
+    <lanstr id="STRING_FORMAT_SD" en="Format SD" zh="格式化存储卡"/>
+    <lanstr id="STRING_RESET_SYSTEM" en="Reset System" zh="恢复出厂设置"/>
+    <lanstr id="STRING_DEBUG" en="Debug" zh="Debug"/>
+    <lanstr id="STRING_LANGUAGE" en="Language" zh="语言"/>
+    <lanstr id="STRING_ABOUT" en="About" zh="关于"/>
+    <lanstr id="STRING_RESOLUTION" en="Resolution" fr="Resolution" de="Bildaufloesung" it="Resolution" ru="Разрешение" es="Resolution" zh="分辨率" ja="Resolution" />
+    <lanstr id="STRING_SPLIT_TIME" en="Video Segmentation" zh="视频分段"/>
+    <lanstr id="STRING_SCENE" en="Scene" zh="场景"/>
+    <lanstr id="STRING_OUTPUT_FORMAT" en="Output Format" zh="输出格式"/>
+    <lanstr id="STRING_DELAY_TIME" en="Delay Time" zh="倒计时"/>
+    <lanstr id="STRING_LAPSE_INTERVAL" en="Lapse Interval" zh="缩时间隔"/>
+    <lanstr id="STRING_BUTST_TYPE" en="Burst Type" zh="多拍类型"/>
+    <lanstr id="STRING_AUDIO" en="Audio" zh="录像音频"/>
+    <lanstr id="STRING_VIDEO_ENCODE" en="Video Encode" zh="编码类型"/>
+    <lanstr id="STRING_LOOP_TIME" en="Loop Time" zh="循环时长"/>
+    <lanstr id="STRING_EXPOSURE_EV" en="Exposure EV" zh="曝光补偿"/>
+    <lanstr id="STRING_EXPOSURE_TIME" en="Exposure Time" zh="曝光时间"/>
+    <lanstr id="STRING_ISO" en="ISO" zh="感光度"/>
+    <lanstr id="STRING_WB" en="WB" zh="白平衡"/>
+    <lanstr id="STRING_METER" en="Meter" zh="测光模式"/>
+    <lanstr id="STRING_OSD" en="OSD" zh="水印信息"/>
+    <lanstr id="STRING_DIS" en="DIS" zh="数码防抖"/>
+    <lanstr id="STRING_LDC" en="LDC" zh="畸变校正"/>
+    <lanstr id="STRING_VOLUME" en="Volume" zh="音量"/>
+    <lanstr id="STRING_KEYTONE" en="Key Tone" zh="按键音"/>
+    <lanstr id="STRING_ON" en="ON" zh="开"/>
+    <lanstr id="STRING_OFF" en="OFF" zh="关"/>
+    <lanstr id="STRING_H264" en="Compatible" zh="兼容性最好"/>
+    <lanstr id="STRING_H265" en="Efficient" zh="高效省空间"/>
+    <!-- Set Page, from ini -->
+    <lanstr id="STRING_AUTO" en="AUTO" zh="自动"/>
+    <lanstr id="STRING_LL" en="LL" zh="超级夜景"/>
+    <lanstr id="STRING_CENTER" en="Center" zh="中心测光"/>
+    <lanstr id="STRING_AVERAGE" en="Average" zh="平均测光"/>
+    <lanstr id="STRING_SPOT" en="Spot" zh="点测光"/>
+    <lanstr id="STRING_EN" en="English" zh="English"/>
+    <lanstr id="STRING_ZH" en="中文" zh="中文"/>
+    <lanstr id="STRING_IDLE" en="IDLE" zh="预览"/>
+    <lanstr id="STRING_1MIN" en="1Min" zh="1分钟"/>
+    <lanstr id="STRING_3MIN" en="3Min" zh="3分钟"/>
+    <lanstr id="STRING_5MIN" en="5Min" zh="5分钟"/>
+    <lanstr id="STRING_10MIN" en="10Min" zh="10分钟"/>
+    <lanstr id="STRING_500MS" en="0.5S" zh="0.5秒"/>
+    <lanstr id="STRING_1S" en="1S" zh="1秒"/>
+    <lanstr id="STRING_2S" en="2S" zh="2秒"/>
+    <lanstr id="STRING_3S" en="3S" zh="3秒"/>
+    <lanstr id="STRING_5S" en="5S" zh="5秒"/>
+    <lanstr id="STRING_10S" en="10S" zh="10秒"/>
+    <lanstr id="STRING_20S" en="20S" zh="20秒"/>
+    <lanstr id="STRING_30S" en="30S" zh="30秒"/>
+    <lanstr id="STRING_60S" en="60S" zh="60秒"/>
+    <lanstr id="STRING_3000K" en="Warm" zh="暖色"/>
+    <lanstr id="STRING_6500K" en="Cold" zh="冷色"/>
+    <!-- Prompt -->
+    <lanstr id="STRING_NO_SD_CARD_src" en="No SD Card!" zh="没有存储卡!"/>
+    <lanstr id="STRING_SD_ERROR_src" en="SD Error!" zh="存储卡错误!"/>
+    <lanstr id="STRING_SD_ERROR_FORMAT_src" en="Please format SD card!" zh="请格式化存储卡!"/>
+    <lanstr id="STRING_SD_ERROR_PLUG_src" en="Please plug SD card!" zh="请插拔存储卡!"/>
+    <lanstr id="STRING_SD_CHANGE_src" en="Please change another SD card!" zh="请更换存储卡!"/>
+    <lanstr id="STRING_SD_PREPARING_src" en="SD is preparing!" zh="正在准备存储卡中!"/>
+    <lanstr id="STRING_SD_FULL_src" en="SD Full!" zh="存储卡满!"/>
+    <lanstr id="STRING_LOW_BATTERY" en="Low Battery!" zh="低电量!"/>
+    <lanstr id="STRING_ULTRALOW_BATTERY" en="Ultralow Battery!" zh="超低电量!"/>
+    <lanstr id="STRING_VOLUME_MINUS" en="-" zh="-"/>
+    <lanstr id="STRING_VOLUME_PLUS" en="+" zh="+"/>
+    <!-- Format sd -->
+    <lanstr id="STRING_FORMAT_SD_AT_ONCE" en="Format SD at once?" zh="确定要格式化存储卡吗?"/>
+    <!-- Format sd -->
+    <lanstr id="STRING_QUICK_FORMAT_SD" en="Quick format?" zh="快速格式化?"/>
+    <!-- Upgrade -->
+    <lanstr id="STRING_UPGRADE_AT_ONCE" en="Do you want to upgrade now?" zh="确定要升级系统吗?"/>
+    <lanstr id="STRING_UPGRADE_SUCCESS" en="Upgrade success!" zh="升级成功!"/>
+    <lanstr id="STRING_UPGRADE_FAILURE" en="Upgrade failed!" zh="升级失败!"/>
+    <lanstr id="STRING_UPGRADE_MODE" en="Start firmware upgrade!" zh="进入升级模式！"/>
+    <!-- Reset Factory -->
+    <lanstr id="STRING_RESET_FACTORY_AT_ONCE" en="Reset factory at once?" zh="确定要恢复出厂设置吗?"/>
+    <lanstr id="STRING_SET_DATE" en="Set Date" zh="日期"/>
+    <lanstr id="STRING_SET_TIME" en="Set Time" zh="时间"/>
+    <lanstr id="STRING_USB_MODE" en="USB Mode" zh="USB模式"/>
+    <lanstr id="STRING_USB_CHARGE" en="CHARGE" zh="仅充电"/>
+    <lanstr id="STRING_USB_UVC" en="USB Video" zh="USB摄像头"/>
+    <lanstr id="STRING_USB_SRORAGE" en="USB Storage" zh="USB存储"/>
+    <!-- Hdmi home -->
+    <lanstr id="STRING_HDMI_HOME_NOTIC_src" en="Press 'Enter' key to enter filelist." zh="按“确认”键进入相册。"/>
+    <!-- Wi-Fi -->
+    <lanstr id="STRING_WIFI_INFO" en="WiFi Information" zh="WiFi信息"/>
+    <lanstr id="STRING_WIFI_PWD" en="WiFi Password" zh="WiFi密码"/>
+    <lanstr id="STRING_WIFI_SSID" en="WiFi SSID" zh="WiFi名称"/>
+	
+	
+<!-- =============================================================================================== -->
+    <!-- Prompt -->
+    <lanstr id="STRING_NO_SD_CARD" en="No SD Card!" fr="Pas de carte SD!" de="Keine SD-Karte!" it="Nessuna scheda SD!" ru="Нет SD-карты!" es="No hay tarjeta SD!" zh="没有存储卡" ja="SDカードなし！" />
+    <lanstr id="STRING_SD_ERROR" en="SD Error!" fr="Erreur SD!" de="SD-Fehler!" it="Errore SD!" ru="Ошибка SD!" es="Error de SD!" zh="存储卡错误!" ja="SDエラー！" />
+    <lanstr id="STRING_SD_ERROR_FORMAT" en="Please Format SD Card!" fr="Formatez la carte SD!" de="Bitte formatieren Sie SD-Karte!" it="Formattare la scheda SD!"  ru="Отформатируйте карту!" es="Por favor, formatee la tarjeta SD!" zh="请格式化SD卡！" ja="SDカードをフォーマットしてください！"/>
+	<lanstr id="STRING_SD_ERROR_PLUG" en="Please plug SD card!" fr="Veuillez formater la carte SD!" de="Bitte formatieren Sie die SD-Karte!" it="Si prega di formattare la scheda SD!" ru="Пожалуйста, отформатируйте SD-карту!" es="Por favor, formatear la tarjeta SD!" zh="请插拔存储卡!" ja="SDカードをフォーマットしてください。" />
+    <lanstr id="STRING_SD_CHANGE" en="Please change another SD card!" fr="S'il vous plaît changer une autre carte SD!" de="Bitte ändern Sie eine andere SD-Karte!" it="Per favore cambia un'altra scheda SD!" ru="Пожалуйста, измените другую SD-карту!" es="Por favor, cambie otra tarjeta SD!" zh="请更换存储卡!" ja="別のSDカードを交換してください。" />
+    <lanstr id="STRING_SD_PREPARING" en="SD is preparing!" fr="SD se prépare!" de="SD bereitet sich vor!" it="SD si sta preparando!" ru="SD готовится!" es="SD se está preparando!" zh="正在准备存储卡中!" ja="SDが準備中です！" />
+    <lanstr id="STRING_SD_FULL" en="SD Full!" fr="SD Full!" de="SD voll!" it="SD completo!" ru="SD Full!" es="SD completo!" zh="存储卡满!" ja="SDフル！" />
+    <!-- Dialog -->
+    <lanstr id="STRING_DIALOG_NOTICE" en="Notice" fr="Remarquer" de="Beachten" it="Avviso" ru="уведомление" es="darse cuenta" zh="注意" ja="通知" />
+    <lanstr id="STRING_DIALOG_ASK" en="Are you sure?" fr="Êtes-vous sûr?" de="Bist du sicher?" it="Sei sicuro?" ru="Уверены ли вы?" es="¿Estás seguro?" zh="确定吗" ja="本気ですか？" />
+    <lanstr id="STRING_DIALOG_Delete_ASK" en="Are you sure delete files?" fr="Êtes-vous sûr de supprimer des fichiers?" de="Sind Sie sicher, Dateien zu löschen?" it="Sei sicuro di cancellare i file?" ru="Вы уверены, что удалите файлы?" es="¿Estás seguro de eliminar archivos?" zh="确定要删除文件吗?" ja="ファイルを削除してよろしいですか？" />
+    <lanstr id="STRING_CANCEL" en="Cancel" fr="Annuler" de="Nein" it="Annulla" ru="Отмена" es="No" zh="取消" ja="キャンセル" />
+    <lanstr id="STRING_CONFIRM" en="OK" fr="OK" de="Ja" it="OK" ru="OK" es="Sí" zh="确认" ja="OK" />
+    <!-- Hdmi home -->
+    <lanstr id="STRING_HDMI_HOME_NOTIC" en="Press 'Enter' key to enter filelist." fr="Appuyez sur la touche 'Entrée' pour entrer dans la liste de fichiers." de="Drücken Sie die Eingabetaste, um die Dateiliste aufzurufen." it="Premere il tasto 'Invio' per accedere all'elenco dei file." ru="Нажмите клавишу «Ввод», чтобы войти в список файлов." es="Presione la tecla 'Enter' para ingresar a la lista de archivos." zh="按“确认”键进入相册。" ja="再生に入るための確認ボタン" />
+    <!-- Filelist Page -->
+	<lanstr id="STRING_FILELIST_INFO" en="File List" fr="Liste de fichiers" de="Dateiliste" it="Elenco dei file" ru="Список файлов" es="Lista de archivos" zh="相册" ja="ファイル一覧" />
+	<!-- Playback Page -->
+    <lanstr id="STRING_PLAYBACK_SPEED" en="x1" fr="x1" de="x1" it="x1" ru="x1" es="x1" zh="x1" ja="x1" />
+<!-- =============================================================================================== -->
+    <lanstr id="ID_STR_NULL" en="" fr="" de="" it="" ru="" es="" zh="" ja="" />
+	<lanstr id="ID_STR_TIME_SEP" en=":" fr=":" de=":" it=":" ru=":" es=":" zh=":" ja=":" />
+	<lanstr id="ID_STR_Record_DefTime" en="00:00:00" fr="00:00:00" de="00:00:00" it="00:00:00" ru="00:00:00" es="00:00:00" zh="00:00:00" ja="00:00:00" />
+	<lanstr id="ID_STR_FILELIST" en="PlayBack" fr="PlayBack" de="Ruecklauf" it="la riproduzione" ru="переигровка" es="música" zh="回放" ja="転回" />
+	<lanstr id="ID_STR_Wifi" en="Wi-Fi" fr="Wi-Fi" de="Wi-Fi" it="Wi-Fi" ru="Wi-Fi" es="Wi-Fi" zh="WI-FI" ja="Wi-Fi" />
+	<lanstr id="ID_STR_CANCEL" en="Cancel" fr="Annuler" de="Nein" it="Annulla" ru="Отмена" es="No" zh="取消" ja="キャンセル" />
+	<lanstr id="ID_STR_CONFIRM" en="OK" fr="OK" de="Ja" it="OK" ru="OK" es="Sí" zh="确认" ja="OK" />
+	<lanstr id="ID_STR_DefaultAtOnce" en="Restore default settings" fr="Rétablir les paramètres par défaut" de="Die standardeinstellungen wiederherstellen" it="Ripristina le impostazioni predefinite" ru="Восстановление настройки по умолчанию" es="Restaurar configuración predeterminada" zh="恢复默认设置" ja="デフォルト設定を復元する" />
+	<lanstr id="ID_STR_FORMATASK" en="Do you format the memory card?" fr="Format for the memory card you Do?" de="Formatieren die Speicherkarte?" it="Si formatta la scheda di memoria?" ru="вы хотите отформатировать карту памяти" es="Do you format the memory card?" zh="确认格式化存储卡吗?" ja="メモリーカードをチェックしますか？" />
+	<lanstr id="ID_STR_FORMAT_RETRYASK" en="Format the memory card to delete all files unrecoverable, confirm formatting?" fr="Format the memory card to delete all files unrecoverable, confirm formatting?" de="Speicherkarte im Format wird löschen Sie alle Dateien nicht wiederhergestellt, Format bestätigen?" it="Formattazione della memory card sarà eliminare tutti i file recuperabili, confermare il formato?" ru="Все данные будут удалены" es="Diseñar NaCunKa borre todos los documentos que no se recuperan, confirmado reformar?" zh="格式化内存卡将删除所有文件不可恢复，确认格式化？" ja="フォーマット内保存カードはすべてのファイルを削除して復元し、フォーマットを確認する？" />
+	<lanstr id="ID_STR_RETRY" en="Retry" fr="Rejuger" de="Versuchen" it="Riprova" ru="Снова пробовать" es="Reintentar" zh="重试" ja="再度お試しください" />
+	<lanstr id="ID_STR_FORMATING" en="Formating..." fr="Formating..." de="Formating..." it="Formating..." ru="В настоящее время форматирование SD карточка" es="Formating..." zh="正在格式化SD卡" ja="SDカードのフォーマット" />
+	<lanstr id="ID_STR_FormatFinish" en="Format finished" fr="Format fini" de="Format beendet" it="Formato finito" ru="Форматирование SD карточка удaлacь" es="Formato terminado" zh="格式化SD卡完毕" ja="SDカードのフォーマットが完了しました" />
+	<lanstr id="ID_STR_RECOVERY" en="Recover" fr="Récupérer" de="Erholen." it="Recuperare" ru="восстановление" es="Recuperar" zh="恢复" ja="回復" />
+	<lanstr id="ID_STR_BACK" en="BACK" fr="De retour" de="Zurück" it="Indietro" ru="возвращение" es="Volver" zh="返回" ja="戻る" />
+	<lanstr id="ID_STR_TIMER" en="Shooting Timer" fr="Tir Temporisateur" de="Timer-Aufnahmen" it="Timer " ru="Режим съемки" es="Temporizador de Disparo" zh="定时拍摄" ja="セルフタイマー" />
+	<lanstr id="ID_STR_BURST" en="Burst" fr="Une série de photo" de="Serienbildfunktion" it="Scatto continuo" ru="Рота хлопать" es="Disparo Continuo" zh="连拍" ja="連写" />
+	<lanstr id="ID_STR_SD" en="Format" fr="Formatage" de="Formatieren" it="Formato" ru="Формат" es="Formato" zh="格式化" ja="フォーマット" />
+	<lanstr id="ID_STR_LAPSE" en="PhotoLapse" fr="PhotoLapse" de="photolapse" it="photolapse" ru="Фотографировать задержки" es="Photolapse" zh="延时拍照" ja="遅延写真" />
+	<lanstr id="ID_STR_VIDEORESOL" en="Video Resolution" fr="Résolution de vidéo" de="Videolösung" it="Risoluzione video" ru="разрешение" es="Resolución de Vídeo" zh="录像分辨率" ja="解像度" />
+	<lanstr id="ID_STR_FIELDANGLE" en="FOV" fr="FOV" de="FOV" it="FOV" ru="Объектив перспективы" es="FOV" zh="镜头视角" ja="レンズ視角" />
+	<lanstr id="ID_STR_AUDIOSWITCH" en="Record Mute" fr="dossier muet" de="rekord?" it="cronaca muto" ru="Видео «" es="Registro mudo" zh="录像静音" ja="録画シズネ" />
+	<lanstr id="ID_STR_FLIP" en="Rotate" fr="Tournage de l'écran" de="Drehen Sie sich" it="Nessun File" ru="Поворот экрана" es="Rotación" zh="旋转屏幕" ja="回転" />
+	<lanstr id="ID_STR_OSD" en="Data Stamp" fr="timbre de données" de="die briefmarke" it="i francobolli" ru="Почтовый штемпель" es="Sello de datos" zh="日戳" ja="日戳" />
+	<lanstr id="ID_STR_PHOTORESOL" en="Image Size" fr="Taille d'image" de="Bildauflösung" it="Dimensione dell'immagine" ru="размер изображения" es="Tamaño de Imagen" zh="图像尺寸" ja="写真サイズ" />
+	<lanstr id="ID_STR_STARTACTION" en="Start Action" fr="commencez action" de="start - aktion" it="inizia l'azione" ru="Стартовый запуска модели" es="Inicio de acción" zh="开机启动模式" ja="始動モデル" />
+	<lanstr id="ID_STR_TIMESET" en="Time Set" fr="délai prévu" de="mal" it="tempo" ru="Время установить" es="Tiempo establecido" zh="时间设置" ja="時間設定" />
+	<lanstr id="ID_STR_LANGUAGESET" en="Language" fr="Langues" de="Sprache" it="Lingua" ru="Язык" es="Idioma" zh="语言设置" ja="言語設定" />
+	<lanstr id="ID_STR_AUTOSHUTDOWN" en="Auto Shut Off" fr="Auto Shut Off" de="automatisch abgeschaltet" it="Spegnimento Automatico" ru="Автоматическое закрытие" es="Apagado automatico" zh="自动关机" ja="自動シャットダウン" />
+	<lanstr id="ID_STR_DEFAULTSET" en="Factory Reset" fr="réinitialisation" de="factory reset" it="Factory Reset" ru="Восстановление заводской настройки" es="Factory Reset" zh="恢复出厂设置" ja="工場出荷時の設定に戻す" />
+	<lanstr id="ID_STR_OFF" en="OFF" fr="OFF" de="AUS" it="OFF" ru="выкл" es="Apagado" zh="关" ja="オフ" />
+	<lanstr id="ID_STR_ON" en="ON" fr="ON" de="EIN" it="ON" ru="вкл" es="Encendido" zh="开" ja="オン" />
+	<lanstr id="ID_STR_expose" en="Exposure Compensation" fr="Exposition" de="Belichtung" it="Esposizione" ru="Экспозиция" es="Exposición" zh="曝光补偿" ja="露出補正" />
+	<lanstr id="ID_STR_shutter" en="Shutter" fr="shutter" de="auslöser" it="shutter" ru="Затвор время" es="Obturador" zh="快门时间" ja="シャッター時間" />
+	<lanstr id="ID_STR_iso" en="ISO" fr="ISO" de="ISO" it="ISO" ru="ISO" es="ISO" zh="ISO" ja="ISO" />
+	<lanstr id="ID_STR_wb" en="AWB" fr="AWB" de="AWB" it="AWB" ru="Баланс белого" es="AWB" zh="白平衡" ja="ホワイトバランス" />
+	<lanstr id="ID_STR_meter" en="Meter Mode" fr="Meter Mode" de="Meter Mode" it="Meter Mode" ru="Зрительная модели" es="Meter Mode" zh="测光模式" ja="測光モード" />
+	<lanstr id="ID_STR_ldc" en="LDC" fr="LDC" de="LDC" it="LDC" ru="Искажение коррекция" es="LDC" zh="畸变校正" ja="ひずみ補正" />
+	<lanstr id="ID_STR_Info_Set" en="Information" fr="Information" de="Information" it="Information" ru="Камеру информацию" es="Information" zh="相机信息" ja="カメラ情報" />
+	<lanstr id="ID_STR_AutoDormant" en="Screen Saver" fr="Économiseur d'écran" de="Bildschirmschoner" it="Risparmio Energetico" ru="выключить экран" es="Protector de Pantalla" zh="屏幕保护" ja="スクリーンセーバー" />
+	<lanstr id="ID_STR_KernelVersion" en="Kernel Version:" fr="Kernel Version:" de="Kernel Version:" it="Kernel Version:" ru="Версии ядра:" es="Kernel Version:" zh="内核版本" ja="カーネル版" />
+	<lanstr id="ID_STR_SWVersion" en="SW Version:" fr="SW Version:" de="SW Version:" it="SW Version:" ru="SW Version:" es="SW Version:" zh="软件版本:" ja="ソフトバージョン:" />
+	<lanstr id="ID_STR_ALARM_SDNOEXIST" en="Please insert the card and format it on the camera" fr="Veuillez insérer la carte et la formater sur l'appareil photo" de="Bitte legen Sie die Karte ein und formatieren Sie sie auf der Kamera" it="Si prega di inserire la scheda e formattarla sulla fotocamera" ru="Вставьте карту и отформатируйте ее на фотокамере." es="Por favor inserte la tarjeta y formatéela en la cámara" zh="请插入卡并在本机格式化" ja="カードを入れて、初期化ください" />
+	<lanstr id="ID_STR_ALARM_SDERR" en="SD Card Error !" fr="SD Card Error !" de="SD Card Error !" it="SD Card Error !" ru="Карту SD ошибок!" es="SD Card Error !" zh="SD卡出错!" ja="SDカードエラー！" />
+	<lanstr id="ID_STR_ALARM_SDFULL" en="SD Card Full !" fr="SD Card Full !" de="SD Card Full !" it="SD Card Full !" ru="Карту SD полная!" es="SD Card Full !" zh="SD卡满!" ja="SDカード満！" />
+	<lanstr id="ID_STR_ALARM_RECORDSPACE_FULL" en="Record space is full ! Please delete record files first !" fr="réalisations l'espace est plein!veuillez supprimer les dossiers!" de="rekord - raum ist voll!bitte löschen sie rekord - dateien." it="record di spazio è completo!file elimina record prima!" ru="Видео пространство уже полная!" es="¡El espacio está lleno de videos! Por favor borrar archivos de video!" zh="录像空间已满!请先删除录像文件!" ja="録画空間がいっぱい！先に録画ファイルを削除して下さい！" />
+	<lanstr id="ID_STR_ALARM_SNAPSPACE_FULL" en="Photo space is full ! Please delete photos first !" fr="l'espace est plein de photos.veuillez supprimer les photos!" de="foto: raum ist voll!bitte löschen sie fotos!" it="foto di spazio è completo!per favore cancella le foto!" ru="Фотография пространство уже полная!" es="¡Se llena el espacio fotográfico. Borrar archivos de fotos!" zh="照相空间已满!请删除照片文件!" ja="写真の空間がいっぱいです！写真ファイルを削除して下さい！" />
+	<lanstr id="ID_STR_ALARM_REC_LOOPFAIL" en="Remain record time is less than 5mins ! Can't loop record !" fr="rester un temps record est inférieure à 5mins!peux pas boucle record!" de="sind weniger als 5 minuten bestzeit.nicht - rekord!" it="rimanere a tempo di record è inferiore 5mins!non giro record!" ru="Избыток видео время менее 5 минут, не могу открыть цикл видео!" es="¡El tiempo restante no video de menos de cinco minutos, el video!" zh="剩余录像时间少于5分钟,不能开启循环录像!" ja="余剰録画時間は5分ほどで、循環ビデオは開かない！" />
+	<lanstr id="ID_STR_ALARM_USB_CONNECTED" en="USB connected !" fr="USB connected !" de="USB connected !" it="USB connected !" ru="USB уже соединение!" es="USB connected !" zh="USB 已连接!" ja="USB接続！" />
+	<lanstr id="ID_STR_ALARM_USB_CONNECTING" en="USB connecting" fr="USB connecting" de="USB connecting" it="USB connecting" ru="USB от в" es="USB connecting" zh="USB 连接中" ja="USB接続中" />
+	<lanstr id="ID_STR_ALARM_USB_DISCONNECTED" en="USB disconnected !" fr="USB disconnected !" de="USB disconnected !" it="USB disconnected !" ru="USB прерванных" es="USB disconnected !" zh="USB断开连接" ja="USB切断接続" />
+	<lanstr id="ID_STR_ALARM_CHIPTEMP" en="The Chip temperature is too high,please check it and shut down !" fr="la puce de la température est trop élevé, veuillez le vérifier et fermer!" de="die chip - temperatur zu hoch ist, überprüfen sie bitte das abschalten!" it="la temperatura del chip è troppo alto, vi prego di controllare e fermare!" ru="Чип, слишком высокая температура, проверьте аномалии и выключай!" es="Chip de alta temperatura, comprobar anomalías y cierre." zh="芯片温度过高，请检查异常并关机!" ja="チップ温度が高く、異常な検査をして下さい！" />
+	<lanstr id="ID_STR_ALARM_CHIPTEMP_SHUTDOWN" en="The Chip temperature is too high,the system will shut down !" fr="la puce de la température est trop élevé, le système va fermer!" de="die chip - temperatur zu hoch ist, wird das system abschalten!" it="la temperatura del chip è troppo alto, il sistema chiuso!" ru="Чип, превышению температуры система будет закрытие!" es="¡Chip de alta temperatura, el sistema se apaga!" zh="芯片温度过高，系统将会关机!" ja="チップの温度が高すぎて、システムはシャットダウンして、システムは！" />
+	<lanstr id="ID_STR_ALARM_PWRTEMP" en="The Battery temperature is too high,please check it and shut down !" fr="la batterie de la température est trop élevé, veuillez le vérifier et fermer!" de="die batterie temperaturen zu hoch ist, überprüfen sie bitte das abschalten!" it="la batteria ha una temperatura troppo elevata, vi prego di controllare e fermare!" ru="Элемент превышению температуры, проверьте аномалии и выключай!" es="La temperatura de la batería, comprobar anomalías y cierre." zh="电池温度过高，请检查异常并关机!" ja="電池温度が高く、異常な検査をして下さい！" />
+	<lanstr id="ID_STR_ALARM_PWRTEMP_SHUTDOWN" en="The Battery temperature is too high,the system will shut down !" fr="la batterie de la température est trop élevé, le système va fermer!" de="die batterie temperaturen zu hoch ist, wird das system abschalten!" it="la batteria ha una temperatura troppo elevata, il sistema chiuso!" ru="Элемент превышению температуры, система будет закрытие!" es="¡La batería de alta temperatura, el sistema se apaga!" zh="电池温度过高，系统将会关机!" ja="電池の温度が高く、システムはシャットダウンして、システムは！" />
+	<lanstr id="ID_STR_ALARM_PWRCAPACITY" en="Power is too low,please charge in time !" fr="le pouvoir est trop faible, s'il vous plaît, charge à temps!" de="macht ist zu niedrig, bitte nehmen sie in der zeit!" it="il potere è troppo basso, per favore, capo in tempo!" ru="Заряда аккумулятора, пожалуйста, своевременно зарядки недостаточно!" es="¡El tiempo de carga de la batería, por favor!" zh="电池电量不足,请及时充电!" ja="電池が不足し、直ちに充電してください！" />
+	<lanstr id="ID_STR_ALARM_PWRCAPACITY_SHUTDOWN" en="Power is too low,the system will shut down !" fr="le pouvoir est trop faible, le système va fermer!" de="macht zu gering ist, wird das system abschalten!" it="il potere è troppo bassa, il sistema chiuso!" ru="Заряда аккумулятора недостаточно!" es="¡La batería! Sistema será apagado!" zh="电池电量不足!系统将会关机!" ja="電池が不足します！" />
+	<lanstr id="ID_STR_ALARM_REC_ERR" en="Record err !" fr="consigner l'erreur!" de="rekord - err!" it="record di sbagliare!" ru="Видео ошибку!" es="¡Video error!" zh="录像错误!" ja="ビデオエラー！" />
+	<lanstr id="ID_STR_ALARM_SNAP_ERR" en="Snap err !" fr="Snap err !" de="Snap err !" it="Snap err !" ru="ZhuaPai ошибку!" es="Snap err !" zh="抓拍错误!" ja="コケットエラー！" />
+	<lanstr id="ID_STR_SD_ERR_NOEXIST" en="SD Card abnormal, please check !" fr="carte sd anormale, vérifiez!" de="sd - karte nicht, bitte!" it="scheda sd anormale, controlla!" ru="Карту SD аномалия, проверьте!" es="¡Anomalías de la tarjeta SD, por favor!" zh="SD卡异常，请检查!" ja="SDカードは異常です、検査してください！" />
+	<lanstr id="ID_STR_WIFI_ON" en="Turning wifi on ..." fr="transformer le wifi..." de="im wifi..." it="per quanto riguarda il wi - fi." ru="Сейчас открытие wi-fi" es="Es la apertura de wifi" zh="正在开启WIFI" ja="WIFIを開く" />
+	<lanstr id="ID_STR_WIFI_ON_ERR" en="Turn wifi on fail !" fr="tour le wifi à échouer!" de="sie wifi auf scheitern!" it="gira il wi - fi per fallire!" ru="Открытие wi-fi провал" es="La derrota la apertura de wifi" zh="开启WIFI失败" ja="WIFI失敗を開く" />
+	<lanstr id="ID_STR_WIFI_OFF" en="Turning off wifi ..." fr="couper le wifi..." de="abschalten wifi..." it="spegnere il wi - fi..." ru="Закрыты wi-fi" es="Es el cierre de wifi" zh="正在关闭WIFI" ja="閉鎖しているWIFI" />
+	<lanstr id="ID_STR_WIFI_OFF_ERR" en="Turn off wifi fail !" fr="couper le wifi échouer!" de="schalten sie wifi versagen!" it="spegni il wi - fi non!" ru="Закрытие wi-fi провал" es="Fracaso el cierre de wifi" zh="关闭WIFI失败" ja="閉鎖WIFI失敗" />
+	<lanstr id="ID_STR_CAR_RECORD" en="CarMode" fr="Mode en voiture" de="Car-Modus" it="Modalità auto" ru="Car Mode" es="Modo de Coche" zh="车载模式" ja="カーモード" />
+	<lanstr id="ID_STR_CODED" en="Encode Mode" fr="Encode Mode" de="Encode Mode" it="Encode Mode" ru="Схемы кодирования" es="Encode Mode" zh="编码模式" ja="映像コーデック" />
+	<lanstr id="ID_STR_ALARM_GETCHANNELSTATE_FAIL" en="Get record channel state fail,can't record !" fr="l'État - ne peut pas enregistrer channel, le record!" de="holt rekord - staat versagt, kann nicht auf." it="a record canale stato fallito, non record!" ru="Доступ к видео состояния неудачи, не видео!" es="¡Video de canal para el fracaso, el Estado no video!" zh="获取录像通道状态失败，无法录像！" ja="録画チャネル状態で失敗し、ビデオができない！" />
+	<lanstr id="ID_STR_ALARM_RECCHANNEL_BUSY" en="Record channel is busy,can't record !" fr="disque channel est occupé, ne peut pas enregistrer!" de="rekord - kanal zu tun, kann nicht." it="record canale è occupato, non record!" ru="Видео канал занят, не видео!" es="¡Video de canal ocupado, no video!" zh="录像通道忙，无法录像！" ja="ビデオチャネルが忙しく、ビデオができない！" />
+	<lanstr id="ID_STR_ALARM_STARTCHANNEL_FAIL" en="Start record channel fail,can't record !" fr="début de l'enregistrement channel ne parviennent pas, ne peut pas enregistrer!" de="rekord - start nicht, können nicht." it="inizia a registrare il canale fallire, non record!" ru="Запуска видео канал неудачи, не видео!" es="¡El fracaso, el canal de videos no video!" zh="启动录像通道失败，无法录像！" ja="録画チャネルが失敗し、ビデオができない！" />
+	<lanstr id="ID_STR_ALARM_STOPCHANNEL_FAIL" en="Stop record channel fail !" fr="arrête de disque channel échouer!" de="rekord - kanal nicht stoppen." it="smettila di record canale fallire!" ru="Хватит видео канал провал!" es="Para el video de camino de fracaso." zh="停止录像通道失败！" ja="ビデオチャネル停止！" />
+	<lanstr id="ID_STR_ALARM_SNAPPARAM_ERR" en="Snap param err,operate fail !" fr="exploitation snap param tre, échec!" de="snap param err, funktionieren nicht." it="- - param err, operare fallire!" ru="ZhuaPai параметры ошибки, провал операции!" es="Un parámetro de error, el fracaso de la operación." zh="抓拍参数错误，操作失败！" ja="コケットエラー、操作失敗！" />
+	<lanstr id="ID_STR_ALARM_GETSDSTATE_FAIL" en="Get SD state fail !" fr="l'État - dd échouer!" de="sd - staat nicht bekommen." it="- sd stato bocciato!" ru="Доступ к карту SD состояние провал!" es="Para obtener la tarjeta SD de Estado fallido." zh="获取SD卡状态失败！" ja="SDカードの状態で失敗する！" />
+	<lanstr id="ID_STR_ALARM_GETFILEINFO_FAIL" en="Get file info fail !" fr="te déposer info échouer!" de="datei - informationen nicht bekommen." it="ottenere informazioni file fallire!" ru="Получение информации о файле провал!" es="¡Obtener información de archivo fracaso!" zh="获取文件信息失败！" ja="ファイル情報の失敗を得る！" />
+	<lanstr id="ID_STR_DIS" en="Anti-shake" fr="Mode de stabilisation" de="bild stabilisieren." it="Anti-shake" ru="Стабильный режим" es="Modo de Estabilización" zh="防抖模式" ja="手ブレ補正" />
+	<lanstr id="ID_STR_WRITINGSD" en="Saving" fr="En stockage" de="Speichern" it="E 'conservato in" ru="Экономия" es="Guardando" zh="正在保存" ja="はい" />
+	<lanstr id="ID_STR_VIDEO_Setting" en="Video Settings" fr="Milieux de vidéo" de="Video einstellungen" it="Impostazioni video" ru="Видео настройки" es="Configuracion de video" zh="录像设置" ja="ビデオ設定" />
+	<lanstr id="ID_STR_PHOTO_Setting" en="Photo Settings" fr="Photo settings" de="Foto einstellungen" it="Foto delle impostazioni" ru="Фотографироваться настройки" es="Ajustes de fotos" zh="拍照设置" ja="写真を撮る" />
+	<lanstr id="ID_STR_REC_LOOP" en="Looping Time" fr="Looping Time" de="Looping Time" it="Looping Time" ru="Время цикла" es="Looping Time" zh="循环时间" ja="サイクルタイム" />
+	<lanstr id="ID_STR_REC_LAPSE" en="TimeLapse" fr="TimeLapse" de="TimeLapse" it="TimeLapse" ru="Время задержки" es="TimeLapse" zh="延时时间" ja="遅延時間" />
+	<lanstr id="ID_STR_PHOTO_SINGLE" en="NormalPhoto" fr="NormalPhoto" de="NormalPhoto" it="NormalPhoto" ru="Обычный фотографироваться" es="NormalPhoto" zh="普通拍照" ja="普通で写真" />
+	<lanstr id="ID_STR_h264" en="H264" fr="H264" de="H264" it="H264" ru="H264" es="H264" zh="H264" ja="H264" />
+	<lanstr id="ID_STR_h265" en="H265" fr="H265" de="H265" it="H265" ru="H265" es="H265" zh="H265" ja="H265" />
+	<lanstr id="ID_STR_1MIN" en="1 min" fr="1 min" de="1 min" it="1 min" ru="1 мин" es="1 min" zh="1分钟" ja="1 min" />
+	<lanstr id="ID_STR_3MIN" en="3 mins" fr="3 mins" de="3 mins" it="3 mins" ru="3 мин" es="3 mins" zh="3分钟" ja="3 mins" />
+	<lanstr id="ID_STR_5MIN" en="5 mins" fr="5 mins" de="5 mins" it="5 mins" ru="5 мин" es="5 mins" zh="5分钟" ja="5 mins" />
+	<lanstr id="ID_STR_10MIN" en="10 mins" fr="10 mins" de="10 mins" it="10 mins" ru="10 мин" es="10 mins" zh="10分钟" ja="10 mins" />
+	<lanstr id="ID_STR_15MIN" en="15 mins" fr="15 mins" de="15 mins" it="15 mins" ru="15 мин" es="15 mins" zh="15分钟" ja="15 mins" />
+	<lanstr id="ID_STR_RECORD_MODE" en="Record Mode" fr="Record Mode" de="Rekord modus" it="Cronaca mode" ru="Видео моделей" es="Modo de grabación" zh="录像模式" ja="ビデオモード" />
+	<lanstr id="ID_STR_NORMAL_RECORD" en="NormalVideo" fr="NormalVideo" de="NormalVideo" it="NormalVideo" ru="Простой видео" es="NormalVideo" zh="普通录像" ja="普通のビデオ" />
+	<lanstr id="ID_STR_SLOW_RECORD" en="SlowRec" fr="SlowRec" de="SlowRec" it="SlowRec" ru="Медленно, как SuLu" es="SlowRec" zh="慢速录像" ja="スローモーション" />
+	<lanstr id="ID_STR_LAPSE_RECORD" en="Time-lapse" fr="Time-lapse" de="Zeitraffer" it="Time-lapse" ru="Интервальная съемка" es="Lapso de Tiempo" zh="延时录像" ja="タイムラプス" />
+	<lanstr id="ID_STR_SNAP_RECORD" en="Video+Photo" fr="Video+Photo" de="video + foto" it="video + foto" ru="Видео + фотографироваться" es="Video + fotos" zh="录像+拍照" ja="ビデオ+写真を撮る" />
+	<lanstr id="ID_STR_1S" en="1s" fr="1s" de="1s" it="1s" ru="1s" es="1s" zh="1秒" ja="1s" />
+	<lanstr id="ID_STR_2S" en="2s" fr="2s" de="2s" it="2s" ru="2s" es="2s" zh="2秒" ja="2s" />
+	<lanstr id="ID_STR_3S" en="3s" fr="3s" de="3s" it="3s" ru="3s" es="3s" zh="3秒" ja="3s" />
+	<lanstr id="ID_STR_5S" en="5s" fr="5s" de="5s" it="5s" ru="5s" es="5s" zh="5秒" ja="5s" />
+	<lanstr id="ID_STR_10S" en="10s" fr="10s" de="10s" it="10s" ru="10s" es="10s" zh="10秒" ja="10s" />
+	<lanstr id="ID_STR_20S" en="20s" fr="20s" de="20s" it="20s" ru="20s" es="20s" zh="20秒" ja="20s" />
+	<lanstr id="ID_STR_30S" en="30s" fr="30s" de="30s" it="30s" ru="30s" es="30s" zh="30秒" ja="30s" />
+	<lanstr id="ID_STR_60S" en="60s" fr="60s" de="60s" it="60s" ru="60s" es="60s" zh="60秒" ja="60s" />
+    <lanstr id="ID_STR_4K_60" en="4K@50fps 3840*2160" fr="4K@50fps 3840*2160" de="4K@50fps 3840*2160" it="4K@50fps 3840*2160" ru="4K@50fps 3840*2160" es="4K@50fps 3840*2160" zh="4K@50fps 3840*2160" ja="4K@50fps 3840*2160" />
+    <lanstr id="ID_STR_4K_50" en="4K@50fps 3200*1800" fr="4K@50fps 3200*1800" de="4K@50fps 3200*1800" it="4K@50fps 3200*1800" ru="4K@50fps 3200*1800" es="4K@50fps 3200*1800" zh="4K@50fps 3200*1800" ja="4K@50fps 3200*1800" />
+	<lanstr id="ID_STR_4K" en="4K@30fps 3840*2160" fr="4K@30fps 3840*2160" de="4K@30fps 3840*2160" it="4K@30fps 3840*2160" ru="4K@30fps 3840*2160" es="4K@30fps 3840*2160" zh="4K@30fps 3840*2160" ja="4K@30fps 3840*2160" />
+	<lanstr id="ID_STR_2K7" en="2.7K@30fps 2704*1520" fr="2.7K@30fps 2704*1520" de="2.7K@30fps 2704*1520" it="2.7K@30fps 2704*1520" ru="2.7K@30fps 2704*1520" es="2.7K@30fps 2704*1520" zh="2.7K@30fps 2704*1520" ja="2.7K@30fps 2704*1520" />
+	<lanstr id="ID_STR_2K" en="2K@30fps 2560*1440" fr="2K@30fps 2560*1440" de="2K@30fps 2560*1440" it="2K@30fps 2560*1440" ru="2K@30fps 2560*1440" es="2K@30fps 2560*1440" zh="2K@30fps 2560*1440" ja="2K@30fps 2560*1440" />
+	<lanstr id="ID_STR_1440P60_4_3" en="1440P@60fps 1920*1440" fr="1440P@60fps 1920*1440" de="1440P@60fps 1920*1440" it="1440P@60fps 1920*1440" ru="1440P@60fps 1920*1440" es="1440P@60fps 1920*1440" zh="1440P@60fps 1920*1440" ja="1440P@60fps 1920*1440" />
+	<lanstr id="ID_STR_1440P30_4_3" en="1440P@30fps 1920*1440" fr="1440P@30fps 1920*1440" de="1440P@30fps 1920*1440" it="1440P@30fps 1920*1440" ru="1440P@30fps 1920*1440" es="1440P@30fps 1920*1440" zh="1440P@30fps 1920*1440" ja="1440P@30fps 1920*1440" />
+	<lanstr id="ID_STR_1080P120" en="1080P@120fps 1920*1080" fr="1080P@120fps 1920*1080" de="1080P@120fps 1920*1080" it="1080P@120fps 1920*1080" ru="1080P@120fps 1920*1080" es="1080P@120fps 1920*1080" zh="1080P@120fps 1920*1080" ja="1080P@120fps 1920*1080" />
+	<lanstr id="ID_STR_1080P60" en="1080P@60fps 1920*1080" fr="1080P@60fps 1920*1080" de="1080P@60fps 1920*1080" it="1080P@60fps 1920*1080" ru="1080P@60fps 1920*1080" es="1080P@60fps 1920*1080" zh="1080P@60fps 1920*1080" ja="1080P@60fps 1920*1080" />
+	<lanstr id="ID_STR_1080P30" en="1080P@30fps 1920*1080" fr="1080P@30fps 1920*1080" de="1080P@30fps 1920*1080" it="1080P@30fps 1920*1080" ru="1080P@30fps 1920*1080" es="1080P@30fps 1920*1080" zh="1080P@30fps 1920*1080" ja="1080P@30fps 1920*1080" />
+	<lanstr id="ID_STR_720P240" en="720P@240fps 1280*720" fr="720P@240fps 1280*720" de="720P@240fps 1280*720" it="720P@240fps 1280*720" ru="720P@240fps 1280*720" es="720P@240fps 1280*720" zh="720P@240fps 1280*720" ja="720P@240fps 1280*720" />
+	<lanstr id="ID_STR_720P120" en="720P@120fps 1280*720" fr="720P@120fps 1280*720" de="720P@120fps 1280*720" it="720P@120fps 1280*720" ru="720P@120fps 1280*720" es="720P@120fps 1280*720" zh="720P@120fps 1280*720" ja="720P@120fps 1280*720" />
+	<lanstr id="ID_STR_720P60" en="720P@60fps 1280*720" fr="720P@60fps 1280*720" de="720P@60fps 1280*720" it="720P@60fps 1280*720" ru="720P@60fps 1280*720" es="720P@60fps 1280*720" zh="720P@60fps 1280*720" ja="720P@60fps 1280*720" />
+	<lanstr id="ID_STR_720P30" en="720P@30fps 1280*720" fr="720P@30fps 1280*720" de="720P@30fps 1280*720" it="720P@30fps 1280*720" ru="720P@30fps 1280*720" es="720P@30fps 1280*720" zh="720P@30fps 1280*720" ja="720P@30fps 1280*720" />
+	<lanstr id="ID_STR_12M" en="12MP 4000*3000" fr="12MP 4000*3000" de="12MP 4000*3000" it="12MP 4000*3000" ru="12MP 4000*3000" es="12MP 4000*3000" zh="12MP 4000*3000" ja="12MP 4000*3000" />
+	<lanstr id="ID_STR_10M" en="10MP 3648*2736" fr="10MP 3648*2736" de="10MP 3648*2736" it="10MP 3648*2736" ru="10MP 3648*2736" es="10MP 3648*2736" zh="10MP 3648*2736" ja="10MP 3648*2736"/>
+	<lanstr id="ID_STR_8M" en="8MP 3840*2160" fr="8MP 3840*2160" de="8MP 3840*2160" it="8MP 3840*2160" ru="8MP 3840*2160" es="8MP 3840*2160" zh="8MP 3840*2160" ja="8MP 3840*2160" />
+	<lanstr id="ID_STR_5M" en="5MP 2560*1920" fr="5MP 2560*1920" de="5MP 2560*1920" it="5MP 2560*1920" ru="5MP 2560*1920" es="5MP 2560*1920" zh="5MP 2560*1920" ja="5MP 2560*1920" />
+	<lanstr id="ID_STR_3M" en="3MP 2048*1536" fr="3MP 2048*1536" de="3MP 2048*1536" it="3MP 2048*1536" ru="3MP 2048*1536" es="3MP 2048*1536" zh="3MP 2048*1536" ja="3MP 2048*1536" />
+	<lanstr id="ID_STR_PHOTO_MODE" en="Photo Mode" fr="Photo Mode" de="Photo Mode" it="foto by" ru="Снимать моделей" es="Modo Foto" zh="拍摄模式" ja="撮影モード" />
+	<lanstr id="ID_STR_PHOTO_SIZE" en="Resolution" fr="Resolution" de="Resolution" it="risoluzione" ru="Размер изображения" es="Resolución" zh="图像尺寸" ja="撮影の解像度" />
+	<lanstr id="ID_STR_PHOTO_TIMER" en="Self-Timer" fr="Self-Timer" de="Self-Timer" it="un timer" ru="Время времени" es="Self - timer" zh="定时时间" ja="タイミング時間" />
+	<lanstr id="ID_STR_PHOTO_BURST" en="Burst Number" fr="Burst Number" de="Burst Number" it="Burst Number" ru="Рота замочек на число" es="Burst número" zh="连拍张数" ja="連写枚数" />
+	<lanstr id="ID_STR_PHOTO_LAPSE" en="TimeLapse" fr="TimeLapse" de="TimeLapse" it="timelapse" ru="Время задержки" es="Timelapse" zh="延时时间" ja="遅延時間" />
+    <lanstr id="ID_STR_3FPS" en="3 Photos" fr="3 Photos" de="3 Mal" it="3 Fotos" ru="3 фотоы" es="3 fotos" zh="3连拍" ja="3連写" />
+    <lanstr id="ID_STR_5FPS" en="5 Photos" fr="5 Photos" de="5 Mal" it="5 Fotos" ru="5 фотоы" es="5 fotos" zh="5连拍" ja="5連写" />
+    <lanstr id="ID_STR_10FPS" en="10 Photos" fr="10 Photos" de="10 Mal" it="10 Fotos" ru="10 фотоы" es="10 fotos" zh="10连拍" ja="10連写" />
+    <lanstr id="ID_STR_15FPS" en="15 Photos" fr="15 Photos" de="15 Mal" it="15 Fotos" ru="15 фотоы" es="15 fotos" zh="15连拍" ja="15連写" />
+	<lanstr id="ID_STR_AUTO" en="Auto" fr="Auto" de="Automatisch" it="Automatico" ru="Авто" es="Automático" zh="自动" ja="オート" />
+	<lanstr id="ID_STR_AUTO_EN" en="Auto" fr="Auto" de="Auto" it="Auto" ru="Auto" es="Auto" zh="Auto" ja="Auto" />
+	<lanstr id="ID_STR_ENGLISH" en="English" fr="English" de="English" it="English" ru="English" es="English" zh="English" ja="English" />
+	<lanstr id="ID_STR_CHINESE" en="简体中文" fr="简体中文" de="简体中文" it="简体中文" ru="简体中文" es="简体中文" zh="简体中文" ja="简体中文" />
+	<lanstr id="ID_STR_zh_HK" en="繁體中文" fr="繁體中文" de="繁體中文" it="繁體中文" ru="繁體中文" es="繁體中文" zh="繁體中文" ja="繁體中文" />
+	<lanstr id="ID_STR_fr" en="Français" fr="Français" de="Français" it="Français" ru="Français" es="Français" zh="Français" ja="Français" />
+	<lanstr id="ID_STR_de" en="Deutsch" fr="Deutsch" de="Deutsch" it="deutsch" ru="Deutsch" es="Deutsch" zh="Deutsch" ja="Deutsch" />
+	<lanstr id="ID_STR_it" en="Italiano" fr="Italiano" de="Italiano" it="Italiano" ru="Italiano" es="Italiano" zh="Italiano" ja="Italiano" />
+	<lanstr id="ID_STR_ru" en="русский" fr="русский" de="русский" it="русский" ru="русский" es="русский" zh="русский" ja="русский" />
+	<lanstr id="ID_STR_es" en="español" fr="español" de="español" it="español" ru="español" es="español" zh="español" ja="español" />
+	<lanstr id="ID_STR_ja" en="日本語" fr="日本語" de="日本語" it="日本語" ru="日本語" es="日本語" zh="日本語" ja="日本語" />
+	<lanstr id="ID_STR_cz" en="česky" fr="česky" de="česky" it="česky" ru="česky" es="česky" zh="česky" ja="česky" />
+	<lanstr id="ID_STR_FREQ" en="Light Frequency" fr="Fréquence Optique" de="Frequenz" it="Frequenza" ru="Частота освещения" es="Frecuencia de Luz" zh="光源频率" ja="光源の周波数" />
+	<lanstr id="ID_STR_50HZ" en="50HZ" fr="50HZ" de="50HZ" it="50hz" ru="50HZ" es="50HZ" zh="50HZ" ja="50HZ" />
+	<lanstr id="ID_STR_60HZ" en="60HZ" fr="60HZ" de="60HZ" it="60hz" ru="60HZ" es="60HZ" zh="60HZ" ja="60HZ" />
+	<lanstr id="ID_STR_ISO100" en="100" fr="100" de="100" it="100" ru="100" es="100" zh="100" ja="100" />
+	<lanstr id="ID_STR_ISO200" en="200" fr="200" de="200" it="200" ru="200" es="200" zh="200" ja="200" />
+	<lanstr id="ID_STR_ISO400" en="400" fr="400" de="400" it="400" ru="400" es="400" zh="400" ja="400" />
+	<lanstr id="ID_STR_ISO800" en="800" fr="800" de="800" it="800" ru="800" es="800" zh="800" ja="800" />
+	<lanstr id="ID_STR_ISO1600" en="1600" fr="1600" de="1600" it="1600" ru="1600" es="1600" zh="1600" ja="1600" />
+	<lanstr id="ID_STR_3000K" en="3000K" fr="3000K" de="3000K" it="3000k" ru="3000K" es="3000K" zh="3000K" ja="3000K" />
+	<lanstr id="ID_STR_5000K" en="5000K" fr="5000K" de="5000K" it="5000k" ru="5000K" es="5000K" zh="5000K" ja="5000K" />
+	<lanstr id="ID_STR_CENTRE" en="Centre" fr="Centre" de="Zentrum" it="Centro" ru="Центральный зрительная" es="Centro" zh="中央测光" ja="中央測光" />
+	<lanstr id="ID_STR_AVERAGE" en="Average" fr="Moyenne" de="Durchschnitt" it="Media" ru="В среднем зрительная" es="Promedio" zh="平均测光" ja="平均測光" />
+	<lanstr id="ID_STR_SPOT" en="Spot" fr="Spot" de="Spot" it="Spot" ru="Точка зрительная" es="Spot" zh="点测光" ja="點測光" />
+	<lanstr id="ID_STR_MENU_MODE" en="Mode" fr="Mode" de="Modus" it="Modalità" ru="модель" es="El modo" zh="模式" ja="モード" />
+	<lanstr id="ID_STR_DeleteAsk_2" en="Delete this file？" fr="Supprimer ce fichier?" de="löschen sie diese datei?" it="elimina il file?" ru="Удалять файлы?" es="¿Borrar este archivo?" zh="删除文件？" ja="ファイルを削除する？" />
+    <lanstr id="ID_STR_DeleteAsk" en="Delete current file" fr="Supprimer le fichier actuel" de="Aktuelle Datei löschen" it="Elimina il file corrente" ru="Удалить текущий файл" es="Eliminar el archivo actual" zh="删除当前文件" ja="現在のファイルを削除" />
+	<lanstr id="ID_STR_OUTDOOR" en="Outdoor" fr="Outdoor" de="Outdoor" it="all'aperto." ru="На улице модели" es="Al aire libre" zh="户外模式" ja="屋外モデル" />
+	<lanstr id="ID_STR_CAPTURE" en="Capture Done" fr="Capture fait" de="fang gemacht" it="la cattura di fatto" ru="Фотографироваться завершения" es="La captura de hecho" zh="拍照完成" ja="写真を撮る" />
+	<lanstr id="ID_STR_WIFI_INFO" en="Wi-Fi Information" fr="Wi-Fi Information" de="Wi-Fi Information" it="Wi-Fi Information" ru="Wi-Fi информации" es="Wi-Fi Information" zh="Wi-Fi信息" ja="Wi-Fi情報" />
+	<lanstr id="ID_STR_WIFI_PWD" en="Wi-Fi Password" fr="Wi-Fi Password" de="Wi-Fi Password" it="Wi-Fi Password" ru="Пароль Wi-Fi" es="Wi-Fi Password" zh="Wi-Fi密码" ja="Wi-Fiパスワード" />
+	<lanstr id="ID_STR_WIFI_SSID" en="Wi-Fi SSID" fr="Wi-Fi SSID" de="Wi-Fi SSID" it="Wi-Fi SSID" ru="Название Wi-Fi" es="Wi-Fi SSID" zh="Wi-Fi名称" ja="Wi-Fi名称" />
+	<lanstr id="ID_STR_POWER_VIDEO" en="Boot Video" fr="Boot Video" de="Boot Video" it="Boot Video" ru="Стартовый видео" es="Bota video" zh="开机录像" ja="クランクインビデオ" />
+	<lanstr id="ID_STR_POWER_VIDEO_LOOP" en="Boot LoopVideo" fr="Boot LoopVideo" de="Boot LoopVideo" it="Boot LoopVideo" ru="Стартовый цикл видео" es="Bota loopvideo" zh="开机循环录像" ja="クランクイン循環ビデオ" />
+	<lanstr id="ID_STR_POWER_VIDEO_SLOW" en="Boot SlowVideo" fr="Boot SlowVideo" de="Boot SlowVideo" it="Boot SlowVideo" ru="Стартовый медленно, как SuLu" es="Bota slowvideo" zh="开机慢速录像" ja="遅いビデオを起動する" />
+	<lanstr id="ID_STR_POWER_VIDEO_PHOTO" en="Boot VideoPhoto" fr="Boot VideoPhoto" de="Boot VideoPhoto" it="Boot VideoPhoto" ru="Стартовый видео фото" es="Bota videophoto" zh="开机录像拍照" ja="ブートビデオカメラ" />
+	<lanstr id="ID_STR_POWER_VIDEO_LAPSE" en="Boot LapseVideo" fr="Boot LapseVideo" de="Boot LapseVideo" it="Boot LapseVideo" ru="Стартовый замедленный видео" es="Bota lapsevideo" zh="开机延时录像" ja="ブート遅延記録" />
+	<lanstr id="ID_STR_ALARM_SDNOFILES" en="No Files" fr="Pas de fichiers" de="Keine Akten" it="Nessun File" ru="Без документов" es="No hay archivos" zh="无文件" ja="無文書" />
+	<lanstr id="ID_STR_FOV" en="Lens Angle" fr="Angle d'objectif" de="Objektivwinkel" it="Angolo obiettivo" ru="Угол объектива" es="Ángulo Visual" zh="镜头视角" ja="レンズ角度" />
+	<lanstr id="ID_STR_WIDE" en="Wide" fr="Large" de="Groß" it="Largo" ru="широкий" es="Grande" zh="大" ja="大" />
+	<lanstr id="ID_STR_MEDIUM" en="Medium" fr="Moyen" de="Mitte" it="Medio" ru="Средний" es="Mediano" zh="中" ja="中" />
+	<lanstr id="ID_STR_NARROW" en="Narrow" fr="Petit" de="Klein" it="Stretto" ru="узкий" es="Pequeño" zh="小" ja="小" />
+	<lanstr id="ID_STR_DNG" en="DNG" fr="DNG" de="DNG" it="DNG" ru="DNG" es="DNG" zh="DNG" ja="DNG" />
+	<lanstr id="ID_STR_HDR" en="HDR" fr="HDR" de="HDR" it="HDR" ru="HDR" es="HDR" zh="HDR" ja="HDR" />
+	<lanstr id="ID_STR_WDR" en="WDR" fr="WDR" de="WDR" it="WDR" ru="WDR" es="WDR" zh="WDR" ja="WDR" />
+	<lanstr id="ID_STR_SCENE" en="Scene" fr="Scène" de="Szene" it="Scena" ru="Режим сцены" es="Escena" zh="场景" ja="シーンモード" />
+	<lanstr id="ID_STR_SCENE_Personage" en="Person" fr="Personnage" de="Person" it="Persona" ru="человек" es="Figura" zh="人物" ja="人物" />
+	<lanstr id="ID_STR_SCENE_Scenery" en="Scenery" fr="Paysage" de="Landschaft" it="Scenario" ru="пейзаж" es="Paisaje" zh="风景" ja="風景" />
+	<lanstr id="ID_STR_SCENE_Underwater" en="Underwater" fr="Sous l'eau" de="unterwasser" it="subacqueo" ru="подводный" es="Bajo el agua" zh="水下" ja="水中" />
+	<lanstr id="ID_STR_SCENE_Defog" en="Defogging" fr="Désembuage" de="entnebeln" it="Disappannamento" ru="рассеивание тумана" es="Desempañado" zh="去雾" ja="防曇" />
+    <lanstr id="ID_STR_SCENE_NIGHT" en="night view" fr="Scène de nuit" de="Nachtaufnahme" it="Scena notturna" ru="Ночная сцена" es="Escena nocturna" zh="夜景" ja="夜景" />
+	<lanstr id="ID_STR_START_REC" en="Boot Recording" fr="Boot Recording" de="Boot Recording" it="Boot Recording" ru="Включить автоматический видео" es="Boot Recording" zh="开机自动录像" ja="自動的に起動する" />
+	<lanstr id="ID_STR_DAYLIGHT" en="Daylight" fr="Lumière du jour" de="Tageslicht" it="Luce solare" ru="Солнечно" es="Luz Diurna" zh="日光" ja="日光" />
+	<lanstr id="ID_STR_CLOUDY" en="Cloudy" fr="Nuageux" de="Wolkig" it="Nuvolosità" ru="Пасмурно" es="Nublado" zh="阴天" ja="曇り" />
+	<lanstr id="ID_STR_TUNGSTEN" en="Tungsten" fr="Incandescent" de="Glühbirnen" it="Luce a incandescenza" ru="Вольфрам" es="Incandescente" zh="白炽灯" ja="白熱電灯" />
+	<lanstr id="ID_STR_FLUOR_L" en="Fluorescent Light" fr="Fluorescent" de="Fluorescent Lamp" it="Luce a fluorescenza" ru="флуоресцентный" es="Fluorescente" zh="荧光灯" ja="蛍光灯" />
+	<lanstr id="ID_STR_FLUOR_H" en="FLUOR" fr="FLUOR" de="FLUOR" it="FLUOR" ru="флуоресцентный" es="FLUOR" zh="荧光灯" ja="蛍光灯" />
+	<lanstr id="ID_STR_Processing" en="Processing" fr="Le traitement" de="Verarbeitung" it="Trasformazione" ru="В ходе обработки" es="Tratamiento" zh="处理中" ja="処理中" />
+	<lanstr id="ID_STR_Video_seg" en="Video segmentation" fr="La vidéo" de="Video segmentation" it="Video di segmentazione" ru="Видео -" es="Video Segmentation" zh="视频分段" ja="ビデオ分段" />
+	<lanstr id="ID_STR_Autolowlight" en="Auto low light" fr="Auto low light" de="Auto low light" it="Auto low light" ru="Автоматическое сумеречная" es="Auto low light" zh="自动低光" ja="自動低光" />
+	<lanstr id="ID_STR_LOOP_VIDEO" en="Loop Recording" fr="Enregistrement en boucle" de="Loop-Aufnahme" it="Registrazione in loop" ru="Цикл записи(мин)" es="Grabación en Bucle" zh="循环录像" ja="ループ録画" />
+	<lanstr id="ID_STR_MIC" en="MIC" fr="MIC" de="MIC" it="Microfono" ru="Рекордное аудио" es="MIC" zh="麦克风" ja="MIC" />
+	<lanstr id="ID_STR_EV_2" en="+2.0" fr="+2.0" de="+2.0" it="+2.0" ru="+2.0" es="+2.0" zh="+2.0" ja="+2.0" />
+	<lanstr id="ID_STR_EV_1_5" en="+1.5" fr="+1.5" de="+1.5" it="+1.5" ru="+1.5" es="+1.5" zh="+1.5" ja="+1.5" />
+	<lanstr id="ID_STR_EV_1" en="+1.0" fr="+1.0" de="+1.0" it="+1.0" ru="+1.0" es="+1.0" zh="+1.0" ja="+1.0" />
+	<lanstr id="ID_STR_EV_0_5" en="+0.5" fr="+0.5" de="+0.5" it="+0.5" ru="+0.5" es="+0.5" zh="+0.5" ja="+0.5" />
+	<lanstr id="ID_STR_EV_0" en="0" fr="0" de="0" it="0" ru="0" es="0" zh="0" ja="0" />
+	<lanstr id="ID_STR_EV_B0_5" en="-0.5" fr="-0.5" de="-0.5" it="-0.5" ru="-0.5" es="-0.5" zh="-0.5" ja="-0.5" />
+	<lanstr id="ID_STR_EV_B1" en="-1.0" fr="-1.0" de="-1.0" it="-1.0" ru="-1.0" es="-1.0" zh="-1.0" ja="-1.0" />
+	<lanstr id="ID_STR_EV_B1_5" en="-1.5" fr="-1.5" de="-1.5" it="-1.5" ru="-1.5" es="-1.5" zh="-1.5" ja="-1.5" />
+	<lanstr id="ID_STR_EV_B2" en="-2.0" fr="-2.0" de="-2.0" it="-2.0" ru="-2.0" es="-2.0" zh="-2.0" ja="-2.0" />
+	<lanstr id="ID_STR_DATE_TIME" en="Date/Time" fr="Date/Heure" de="Datum/Uhrzeit" it="Data/Ora" ru="Дата/время" es="Fecha / Hora" zh="日期/时间" ja="日/時刻" />
+	<lanstr id="ID_STR_DATE_TAG" en="Date Stamp" fr="Étiquette de la date" de="Datumsanzeige" it="Indicazione data" ru="Штамп дата/время" es="Sello de Fecha" zh="日期标签" ja="日付表示" />
+    <lanstr id="ID_STR_UI_OSD" en="OSD" fr="OSD" de="OSD" it="OSD" ru="OSD" es="OSD" zh="OSD" ja="OSD" />
+	<lanstr id="ID_STR_WIFI_SETTING" en="Wi-Fi SSID" fr="Wi-Fi SSID" de="Wi-Fi Einstellung" it="Wi-Fi SSID" ru="Wi-Fi SSID" es="Wi-Fi SSID" zh="Wi-Fi设置" ja="Wi-Fi SSID" />
+	<lanstr id="ID_STR_DEFAULT_SETTING" en="Default Setting" fr="Paramètres par défaut" de="Standard Einstellungen" it="Impostazione predefinita" ru="Перезагрузить" es="Configuración Predeterminada" zh="默认设置" ja="デフォルト設定" />
+	<lanstr id="ID_STR_DEFAULTSETTING" en="Reset all settings to defaults" fr="Vous voulez rétablir les paramètres par défaut?" de="Standardeinstellungen wiederherstellen" it="Ripristina tutte le impostazioni ai valori predefiniti" ru="Сброс на заводские установки" es="Restaurar la configuración predeterminada" zh="恢复默认设置" ja="デフォルト設定を復元する" />
+	<lanstr id="ID_STR_INFO" en="Version" fr="Version" de="Version" it="Versione" ru="Версия ПО" es="Versión" zh="固件信息" ja="バージョン" />
+	<lanstr id="ID_STR_INFO_2" en="Information" de="Information" ru="Инфо" zh="相机信息" zh_HK="相機信息"/>
+	<lanstr id="ID_STR_INFO_3" en="Information" de="Information" ru="Инфо" zh="相机信息_2" zh_HK="相機信息"/>
+	<lanstr id="ID_STR_INFO_4" en="Information" de="Information" ru="Инфо" zh="相机信息_2" zh_HK="相機信息"/>
+	<lanstr id="ID_STR_DPTMODEL_src" en="Model：YUTUPRO" fr="Modèle du produit：YUTUPRO" de="Model：YUTUPRO" it="Model：YUTUPRO" ru="Model：YUTUPRO" es="Modelo：YUTUPRO" zh="产品型号：YUTUPRO" ja="製品モデル：YUTUPRO" />
+    <lanstr id="ID_STR_DPTMODEL" en="Model：" fr="Modèle du produit：" de="Model：" it="Model：" ru="Model：" es="Modelo：" zh="产品型号：" ja="製品モデル：" />
+	<lanstr id="ID_STR_DPTMODEL_JM" en="Model：JEEMAK M5-1" fr="Modèle du produit：JEEMAK M5-1" de="Model：JEEMAK M5-1" it="Model：JEEMAK M5-1" ru="Model：JEEMAK M5-1" es="Modelo：JEEMAK M5-1" zh="产品型号：JEEMAK M5-1" ja="製品モデル：JEEMAK M5-1" />
+    <lanstr id="ID_STR_DPTMODEL_A80" en="Model：APEMAN/A80" fr="Modèle du produit：APEMAN/A80" de="Model：APEMAN/A80" it="Model：APEMAN/A80" ru="Model：APEMAN/A80" es="Modelo：APEMAN/A80" zh="产品型号：APEMAN/A80" ja="製品モデル：APEMAN/A80" />
+    <lanstr id="ID_STR_DPTMODEL_AC80" en="Model：Victure/AC800" fr="Modèle du produit：Victure/AC800" de="Model：Victure/AC800" it="Model：Victure/AC800" ru="Model：Victure/AC800" es="Modelo：Victure/AC800" zh="产品型号：Victure/AC800" ja="製品モデル：Victure/AC800" />
+    <lanstr id="ID_STR_DPTMODEL_z2v2_a100" en="Model：APEMAN/A100" fr="Modèle du produit：APEMAN/A100" de="Model：APEMAN/A100" it="Model：APEMAN/A100" ru="Model：APEMAN/A100" es="Modelo：APEMAN/A100" zh="产品型号：APEMAN/A100" ja="製品モデル：APEMAN/A100" />
+    <lanstr id="ID_STR_DPTMODEL_z2v2_CT9500" en="Model：Crosstour CT9500" fr="Modèle du produit：Crosstour CT9500" de="Model：Crosstour CT9500" it="Model：Crosstour CT9500" ru="Model：Crosstour CT9500" es="Modelo：Crosstour CT9500" zh="产品型号：Crosstour CT9500" ja="製品モデル：Crosstour CT9500" />
+	<lanstr id="ID_STR_SOFTWARE_VER" en="Version：V5.0.0.1" fr="Version：V5.0.0.1" de="Version：V5.0.0.1" it="Versione：V5.0.0.1" ru="Versione：V5.0.0.1" es="Versión：V5.0.0.1" zh="软件版本：V5.0.0.1" ja="バージョン：V5.0.0.1" />
+	<lanstr id="ID_STR_pt" en="Português" fr="Português" de="Português" it="Português" ru="Português" es="Português" zh="Português" ja="Português" />
+	<lanstr id="ID_STR_th" en="ภาษาไทย" fr="ภาษาไทย" de="ภาษาไทย" it="ภาษาไทย" ru="ภาษาไทย" es="ภาษาไทย" zh="ภาษาไทย" ja="ภาษาไทย" />
+	<lanstr id="ID_STR_KR" en="Korean" fr="Korean" de="Korean" it="Korean" ru="Korean" es="Korean" zh="Korean" ja="Korean" />
+	<lanstr id="ID_STR_PL" en="Polish" fr="Polish" de="Polish" it="Polish" ru="Polish" es="Polish" zh="Polish" ja="Polish" />
+	<lanstr id="ID_STR_PWD" en="Password:" fr="Mot de passe:" de="Password:" it="Password:" ru="Password:" es="Password:" zh="Password:" ja="Password:" />
+	<lanstr id="ID_STR_SSID" en="SSID:" fr="SSID:" de="SSID:" it="SSID:" ru="SSID:" es="SSID:" zh="SSID:" ja="SSID:" />
+	<lanstr id="ID_STR_CAR" en="Car" fr="voiture" de="auto" it="Auto" ru="Схемы движения" es="Car" zh="行车模式" ja="運行モード" />
+	<lanstr id="ID_STR_TURN_OFF" en="Turn off the camera?" fr="Éteins la caméra?" de="mach die kamera aus?" it="Si spegne la fotocamera?" ru="Выключи камеру?" es="Turn off the camera?" zh="关掉相机吗?" ja="カメラを消しますか？" />
+	<lanstr id="ID_STR_DATE_SET" en="Date Set" fr="date fixée" de="datum" it="Data Set" ru="Дата настройки" es="Date Set" zh="日期设置" ja="期日の設定" />
+	<lanstr id="ID_STR_TIME_SET" en="Time Set" fr="délai prévu" de="mal" it="Tempo impostato" ru="Время установить" es="Time Set" zh="时间设置" ja="時間の設定" />
+	<lanstr id="ID_STR_YEAR" en="Year" fr="année" de="jahr" it="Anno" ru="года" es="año" zh="年" ja="年" />
+	<lanstr id="ID_STR_MONTH" en="Month" fr="mois" de="monat" it="Mese" ru="в" es="Month" zh="月" ja="月" />
+	<lanstr id="ID_STR_DAY" en="Day" fr="jour" de="tag" it="Giorno" ru="от" es="Day" zh="日" ja="日" />
+	<lanstr id="ID_STR_HOUR" en="Hour" fr="heure" de="stunde" it="Ora" ru="ч" es="Hour" zh="时" ja="時" />
+	<lanstr id="ID_STR_MINUTE" en="Minute" fr="minute" de="minute" it="Minuto" ru="м." es="minuto" zh="分" ja="分" />
+	<lanstr id="ID_STR_SECOND" en="Second" fr="deuxième" de="deuxième" it="Secondo" ru="секунд" es="Second" zh="秒" ja="秒" />
+	<lanstr id="ID_STR_TV" en="TV Out" fr="la télé" de="fernseher aus" it="Uscita TV" ru="TV выходной" es="TV Out" zh="TV输出" ja="テレビ出力" />
+	<lanstr id="ID_STR_USB_MUX" en="USB Multiplex" fr="l'usb multiplex" de="usb - multiplex" it="USB Multiplex" ru="USB многократного использования" es="Multiplex USB" zh="USB复用" ja="usb多重" />
+	<lanstr id="ID_STR_USB" en="USB" fr="l'usb" de="usb -" it="USB" ru="USB" es="USB" zh="USB" ja="USB" />
+	<lanstr id="ID_STR_GPIO" en="GPIO" fr="gpio" de="gpio" it="GPIO" ru="GPIO" es="GPIO" zh="GPIO" ja="GPIO" />
+	<lanstr id="ID_STR_USB_MSDC" en="Mass Storage" fr="de mémoire de masse." de="massenspeicher" it="Archiviazione di massa" ru="Большой объем памяти" es="BTS Storage" zh="大容量存储器" ja="大容量メモリ" />
+	<lanstr id="ID_STR_USB_CAMERA" en="PC Camera" fr="pc caméra" de="pc - kamera" it="Macchina fotografica del PC" ru="Компьютер камер" es="PC Camera" zh="电脑摄像头" ja="コンピュータ・カメラ" />
+	<lanstr id="ID_STR_USB_CHARGE" en="Charge" fr="charge" de="anklage" it="Carica" ru="зарядка" es="Charge" zh="充电" ja="充电" />
+	<lanstr id="ID_STR_SETTING" en="Setting" fr="l'établissement" de="die" it="Impostazione" ru="Настройки" es="Setting" zh="设置" ja="設置" />
+	<lanstr id="ID_STR_100PERCENT" en="100%" fr="100%" de="100%" it="100%" ru="100%" es="100%" zh="100%" ja="100%" />
+	<lanstr id="ID_STR_1080P120TEST" en="1080P/120" fr="1080P/120" de="1080P/120" it="1080P/120" ru="1080P/120" es="1080P/120" zh="1080P/120" ja="1080P/120" />
+	<lanstr id="ID_STR_SD_CARD" en="SD Card" fr="É t Card" de="SD-Karte" it="Scheda SD" ru="карты" es="La tarjeta SD" zh="存储卡" ja="メモリカード" />
+	
+	<lanstr id="ID_STR_MULTIPHOTO_Setting" en="Multi-Shot Settings" fr="Multi - Settings Shot" de="Multi-shot-Einstellungen" it="Impostazioni multi-shot" ru="Много настроек в" es="Multi-touch Shot Settings" zh="多拍的设置" ja="マルチカメラ設置" />
+	<lanstr id="ID_STR_DATE_SEP" en="/" fr="/" de="/" it="/" ru="/" es="/" zh="/" ja="/" />
+	<lanstr id="ID_STR_DATE_STYLE" en="YY / MM / DD" fr="YY / MM / DD" de="YY / MM / DD" it="YY / MM / DD" ru="YY / MM / DD" es="YY / MM / DD" zh="YY / MM / DD" ja="YY / MM / DD" />
+	<lanstr id="ID_STR_DATE_STYLE_YYMMDD" en="YY / MM / DD" fr="YY / MM / DD" de="YY / MM / DD" it="YY / MM / DD" ru="YY / MM / DD" es="YY / MM / DD" zh="YY / MM / DD" ja="YY / MM / DD" />
+	<lanstr id="ID_STR_DATE_STYLE_MMDDYY" en="MM / DD / YY" fr="MM / DD / YY" de="MM / DD / YY" it="MM / DD / YY" ru="MM / DD / YY" es="MM / DD / YY" zh="MM / DD / YY" ja="MM / DD / YY" />
+	<lanstr id="ID_STR_DATE_STYLE_DDMMYY" en="DD / MM / YY" fr="DD / MM / YY" de="DD / MM / YY" it="DD / MM / YY" ru="DD / MM / YY" es="DD / MM / YY" zh="DD / MM / YY" ja="DD / MM / YY" />
+	<lanstr id="ID_STR_4K_4_3" en="4k(2880x2160) 30FPS" fr="4k(2880x2160) 30FPS" de="4k(2880x2160) 30FPS" it="4k(2880x2160) 30FPS" ru="4k(2880x2160) 30FPS" es="4k(2880x2160) 30FPS" zh="4k(2880x2160) 30FPS" ja="4k(2880x2160) 30FPS" />
+	<lanstr id="ID_STR_2K7_4_3" en="2.7K(2704x2028) 30FPS" fr="2.7K(2704x2028) 30FPS" de="2.7K(2704x2028) 30FPS" it="2.7K(2704x2028) 30FPS" ru="2.7K(2704x2028) 30FPS" es="2.7K(2704x2028) 30FPS" zh="2.7K(2704x2028) 30FPS" ja="2.7K(2704x2028) 30FPS" />
+	<lanstr id="ID_STR_1080P120_4_3" en="1080(1440x1080) 120FPS" fr="1080(1440x1080) 120FPS" de="1080(1440x1080) 120FPS" it="1080(1440x1080) 120FPS" ru="1080(1440x1080) 120FPS" es="1080(1440x1080) 120FPS" zh="1080(1440x1080) 120FPS" ja="1080(1440x1080) 120FPS" />
+	<lanstr id="ID_STR_1080P60_4_3" en="1080(1440x1080) 60FPS" fr="1080(1440x1080) 60FPS" de="1080(1440x1080) 60FPS" it="1080(1440x1080) 60FPS" ru="1080(1440x1080) 60FPS" es="1080(1440x1080) 60FPS" zh="1080(1440x1080) 60FPS" ja="1080(1440x1080) 60FPS" />
+	<lanstr id="ID_STR_1080P30_4_3" en="1080(1440x1080) 30FPS" fr="1080(1440x1080) 30FPS" de="1080(1440x1080) 30FPS" it="1080(1440x1080) 30FPS" ru="1080(1440x1080) 30FPS" es="1080(1440x1080) 30FPS" zh="1080(1440x1080) 30FPS" ja="1080(1440x1080) 30FPS" />
+	<lanstr id="ID_STR_1440P30" en="1440(2560x1440) 30FPS" fr="1440(2560x1440) 30FPS" de="1440(2560x1440) 30FPS" it="1440(2560x1440) 30FPS" ru="1440(2560x1440) 30FPS" es="1440(2560x1440) 30FPS" zh="1440(2560x1440) 30FPS" ja="1440(2560x1440) 30FPS" />
+	<lanstr id="ID_STR_1440P60" en="1440(2560x1440) 60FPS" fr="1440(2560x1440) 60FPS" de="1440(2560x1440) 60FPS" it="1440(2560x1440) 60FPS" ru="1440(2560x1440) 60FPS" es="1440(2560x1440) 60FPS" zh="1440(2560x1440) 60FPS" ja="1440(2560x1440) 60FPS" />
+	<lanstr id="ID_STR_16M" en="16MP 4608x3456" fr="16MP 4608x3456" de="16MP 4608x3456" it="16MP 4608x3456" ru="16MP 4608x3456" es="16MP 4608x3456" zh="16MP 4608x3456" ja="16MP 4608x3456" />
+	<lanstr id="ID_STR_20M" en="20MP 5120x3840" fr="20MP 5120x3840" de="20MP 5120x3840" it="20MP 5120x3840" ru="20MP 5120x3840" es="20MP 5120x3840" zh="20MP 5120x3840" ja="20MP 5120x3840" />
+	<lanstr id="ID_STR_14M" en="14MP 4320x3240" fr="14MP 4320x3240" de="14MP 4320x3240" it="14MP 4320x3240" ru="14MP 4320x3240" es="14MP 4320x3240" zh="14MP 4320x3240" ja="14MP 4320x3240" />
+	<lanstr id="ID_STR_ISO_TITLE" en="ISO" fr="ISO" de="ISO" it="ISO" ru="ISO" es="ISO" zh="ISO" ja="ISO" />
+	<lanstr id="ID_STR_EV_TITLE" en="EV" fr="EV" de="EV" it="EV" ru="EV" es="EV" zh="EV" ja="EV" />
+	<lanstr id="ID_STR_USB_MSDC_TITLE" en="Press the &quot;OK&quot; button to switch to PC camera mode" fr="Appuyez sur le bouton &quot;OK&quot; pour la mode caméra PC" de="Drücken Sie die &quot;OK&quot; -Taste, um den PC-Kameramodus zu wechseln" it="Premere il pulsante &quot;OK&quot; per passare alla modalità videocamera per PC" ru="Нажмите кнопку &quot;OK&quot; чтобы переключиться в режим ПК-камеры" es="Presione el botón &quot;OK&quot; para cambiar al modo de cámara de la PC" zh="按OK键切换到摄像头模式" ja="OKボタンを押すと、PCモードに切り替えます" />
+	<lanstr id="ID_STR_USB_CAMERA_TITLE" en="Press the &quot;OK&quot; button to switch to mass storage mode" fr="Appuyez sur le bouton &quot;OK&quot; pour la mode de stockage de masse" de="Drücken Sie die Taste &quot;OK&quot;, um den Massenspeichermodus zu wechseln" it="Premere il pulsante &quot;OK&quot; per passare alla modalità di archiviazione di massa" ru="Нажмите кнопку &quot;OK&quot; чтобы переключиться в режим массовое хранение" es="Presione el botón &quot;OK&quot; para cambiar al modo de almacenamiento" zh="按OK键切换到存储模式" ja="OKボタンを押すと、ストレージモードに切り替えます" />
+	<lanstr id="ID_STR_SDWARNING" en="To better experience the 4K effect, use the recommended SD card, or better SD card" fr="l'effet de la 4k, utiliser le recommandé carte sd ou meilleure carte sd" de="Bessere Erfahrung empfohlen 4 K Wirkung, Verwendung die folgenden SD-Karte oder besser SD-Karte" it="Di vivere al meglio l'effetto di 4K, uso di seguito consigliati scheda SD, o meglio SD card" ru="для лучшего опыта 4k эффект, использовать рекомендованные SD - карты SD - карты, или лучше" es="Para mejor experiencia el 4K efecto, usar la recomendada tarjeta SD, o mejor tarjeta SD" zh="为了更好体验4K效果，请使用以下推荐的SD卡，或更好的SD卡" ja="経験は4 kの効果を改善するために、推薦されたsdカードを使うか、より良いsdカード" />
+
+	
+	<lanstr id="ID_STR_RESOLUTION" en="Resolution" fr="Resolution" de="Bildaufloesung" it="Resolution" ru="Разрешение" es="Resolution" zh="分辨率" ja="Resolution" />
+	<lanstr id="ID_STR_AUDIOEFFECT" en="Audio Effect" fr="Audio Effect" de="Audio Effekte" it="Audio Effect" ru="Звуковой эффект" es="Audio Effect" zh="音频效果" ja="Audio Effect" />
+	<lanstr id="ID_STR_VIDEO_QUA" en="Compression Rate" fr="EV" de="Kompressionsrate" it="EV" ru="Степень сжатия" es="EV" zh="压缩率" ja="EV" />
+	<lanstr id="ID_STR_REMOTE_CONTROL" en="Remote Control" fr="Remote Control" de="Fernbedienung" it="Remote Control" ru="Дистанционное управление" es="Remote Control" zh="遥控控制" ja="Remote Control" />
+	<lanstr id="ID_STR_OSD_BRAND" en="Brand Stamp" fr="" de="Marke Stempel" it="" ru="Марка Печать" es="" zh="品牌印记" ja="" />
+	<lanstr id="ID_STR_KEY_TONE" en="KeyTone" fr="" de="Tastenton" it="" ru="Звук кнопки" es="" zh="按键声音" ja="" />
+	<lanstr id="ID_STR_LED" en="LEDs" fr="" de="LEDs" it="" ru="Контрольная лампа" es="" zh="指示灯" ja="" />
+	<lanstr id="ID_STR_AV" en="AV Out" fr="" de="AV Out" it="" ru="AV Out" es="" zh="AV Out" ja="" />
+	<lanstr id="ID_STR_SYSTEM" en="System" fr="" de="System" it="" ru="System" es="" zh="系统设置模式" ja="" />
+    <lanstr id="ID_STR_SYNCTIME_CGI" en="Auto Sync Time" fr="" de="Auto Sync Time" it="" ru="Auto Sync Time" es="" zh="自动同步相机时间" ja="" />
+    <lanstr id="ID_STR_TEST_CARD" en="Card speed test" fr="Test de vitesse de la carte" de="Kartengeschwindigkeitstest" it="Test di velocità della carta" ru="Тест скорости карты" es="Prueba de velocidad de tarjeta" zh="卡速测试" ja="カードスピード　テスト" />
+    <lanstr id="ID_STR_TESTING_CARD" en="testing..." fr="Test..." de="testing..." it="Test" ru="тестирование ..." es="pruebas..." zh="测试中..." ja="テスト中···" />
+    <lanstr id="ID_STR_TEST_CARD_ASK" en="Do you want to test the card speed? It will last 30 seconds." fr="Voulez-vous tester la vitesse de la carte? Cela durera 30 secondes." de="Wird der Kartengeschwindigkeitstest durchgeführt? Dieser Vorgang dauert etwa 30 Sekunden." it="Viene eseguito il test della velocità della scheda? Questo processo richiede circa 30 secondi" ru="Вы хотите проверить скорость карты? Он будет длиться 30 секунд." es="¿Se realiza la prueba de velocidad de la tarjeta? Este proceso lleva unos 30 segundos." zh="是否进行卡速测试？此过程需要大概30秒" ja="カード速度テストは実行されていますか？このプロセスには約30秒かかります" />
+    <lanstr id="ID_STR_TEST_CARD_WARNING" en="Low card speed, please change the card!" fr="Faible vitesse de la carte, veuillez changer de carte!" de="Die Kartengeschwindigkeit ist niedrig, bitte Karte wechseln" it="La velocità della scheda è bassa, si prega di cambiare scheda" ru="Низкая скорость карты, пожалуйста, измените карту!" es="Si la velocidad de la tarjeta es insuficiente o baja  cambie la tarjeta por otra." zh="卡速低，请换卡" ja="カードの速度が遅い、カードを交換してください" />
+    <lanstr id="ID_STR_TEST_CARD_OK" en="High card speed, please feel free to use." fr="Haute vitesse de carte, s'il vous plaît n'hésitez pas à utiliser." de="High-Speed-Karte, bitte fühlen Sie sich frei zu benutzen" it="Scheda ad alta velocità,si prega di stare tranquillo per utilizzare" ru="Высокая скорость карты, пожалуйста, не стесняйтесь использовать." es="Dispone de una Tarjeta que rinde a alta velocidad. Puede sentirse libre de usar." zh="高速卡，请放心使用" ja="高速カード、お気軽にご利用ください" />
+
+    <lanstr id="ID_STR_KEYTONE" en="Beep Sound" fr="Bip Sonore" de="Piep" it="Suono Tasti" ru="бип звук" es="Sonido de tecla" zh="提示音" ja="操作音" />
+    <lanstr id="ID_STR_BUTTON_SOUND" en="Button sound" fr="Son bouton" de="Tastenton" it="Suono Tasti" ru="Звук кнопки" es="Sonido de tecla" zh="按键声音" ja="ボタン音" />
+	
+    <lanstr id="ID_STR_PHOTO_SINGLE_1" en="NormalPhoto" fr="NormalPhoto" de="NormalPhoto" it="NormalPhoto" ru="Обычный фотографироваться" es="NormalPhoto" zh="普通拍照" ja="普通で写真" />
+    <lanstr id="ID_STR_TIMER_1" en="TimerPhoto" fr="Tir Temporisateur" de="Timer-Aufnahmen" it="Timer" ru="Режим съемки" es="Temporizador de Disparo" zh="定时拍摄" ja="ダイビングモード"  />
+    <lanstr id="ID_STR_BURST_1" en="Burst" fr="Une série de photo" de="Serienbildfunktion" it="Scatto continuo" ru="Рота хлопать" es="Disparo Continuo" zh="连拍" ja="連写" />
+    <lanstr id="ID_STR_LAPSE_1" en="PhotoLapse" fr="PhotoLapse" de="photolapse" it="photolapse" ru="Фотографировать задержки" es="Photolapse" zh="延时拍照" ja="遅延写真" />
+    <lanstr id="ID_STR_NORMAL_RECORD_1" en="NormalVideo" fr="NormalVideo" de="NormalVideo" it="NormalVideo" ru="Простой видео" es="NormalVideo" zh="普通录像" ja="普通のビデオ" />
+    <lanstr id="ID_STR_CAR_RECORD_1" en="CarMode" fr="Mode en voiture" de="Car-Modus" it="Modalità auto" ru="Car Mode" es="Modo de Coche" zh="车载模式" ja="カーモード" />
+    <lanstr id="ID_STR_SNAP_RECORD_1" en="VideoPhoto" fr="Video+Photo" de="video + foto" it="video + foto" ru="Видео + фотографироваться" es="Video + fotos" zh="录像+拍照" ja="ビデオ+写真を撮る" />
+    <lanstr id="ID_STR_LAPSE_RECORD_1" en="VideoLapse" fr="Time-lapse" de="Zeitraffer" it="Time-lapse" ru="Интервальная съемка" es="Lapso de Tiempo" zh="延时录像" ja="低速度撮影" />
+    <lanstr id="ID_STR_SLOW_RECORD_1" en="SlowRec" fr="SlowRec" de="SlowRec" it="SlowRec" ru="Медленно, как SuLu" es="SlowRec" zh="慢速录像" ja="遅いビデオ" />
+    
+	<lanstr id="ID_STR_SD_1" en="SD Format" fr="Formatage" de="Formatieren" it="Formato" ru="Формат" es="Formato" zh="格式化" ja="フォーマット" />
+	
+	<lanstr id="ID_STR_PHOTO_SINGLE_2" en="Normal Photo" fr="Normal Photo" de="Normal Photo" it="Normal Photo" ru="Обычный фотографироваться" es="Normal Photo" zh="普通拍照" ja="普通で写真" />
+	<lanstr id="ID_STR_TIMER_2" en="Timing Photo" fr="Tir Temporisateur" de="Timer-Aufnahmen" it="Timer" ru="Режим съемки" es="Temporizador de Disparo" zh="定时拍摄" ja="ダイビングモード" />
+	<lanstr id="ID_STR_BURST_2" en="Burst Photo" fr="Une série de photo" de="Serienbildfunktion" it="Scatto continuo" ru="Рота хлопать" es="Disparo Continuo" zh="连拍" ja="連写" />
+	<lanstr id="ID_STR_LAPSE_2" en="Timelapse Photo" fr="Timelapse Photo" de="Timelapse Photo" it="Timelapse Photo" ru="Фотографировать задержки" es="Timelapse Photo" zh="延时拍照" ja="遅延写真" />
+	<lanstr id="ID_STR_NORMAL_RECORD_2" en="Normal Video" fr="Normal Video" de="Normal Video" it="Normal Video" ru="Простой видео" es="Normal Video" zh="普通录像" ja="普通のビデオ" />
+	<lanstr id="ID_STR_CAR_RECORD_2" en="Car Looping" fr="Mode en voiture" de="Car-Modus" it="Modalità auto" ru="Car Mode" es="Modo de Coche" zh="车载模式" ja="カーモード" />
+	<lanstr id="ID_STR_SNAP_RECORD_2" en="Video and Photo" fr="Video+Photo" de="video + foto" it="video + foto" ru="Видео + фотографироваться" es="Video + fotos" zh="录像+拍照" ja="ビデオ+写真を撮る" />
+	<lanstr id="ID_STR_LAPSE_RECORD_2" en="Timelapse Video" fr="Time-lapse" de="Zeitraffer" it="Time-lapse" ru="Интервальная съемка" es="Lapso de Tiempo" zh="缩时录像" ja="低速度撮影" />
+	<lanstr id="ID_STR_SLOW_RECORD_2" en="Slow Motion" fr="Slow Motion" de="Slow Motion" it="Slow Motion" ru="Медленно, как SuLu" es="Slow Motion" zh="慢速录像" ja="遅いビデオ" />
+	
+	<lanstr id="ID_STR_QUALITY_TITLE" en="Quality" fr="Qualité" de="Qualität" it="Qualità" ru="качество " es="Calidad" zh="图像质量" ja="画質効果"/>
+	<lanstr id="ID_STR_QUALITY_FINE" en="Fine" fr="Haute" de="Hoch" it="Alto" ru="Высокое" es="Alta" zh="优质" ja="高"/>
+	<lanstr id="ID_STR_IMAGE_NOMAL" en="Normal" fr="Normale" de="Normal" it="Normale" ru="Стандартное" es="Normal" zh="标准" ja="標準"/>
+	<lanstr id="ID_STR_QUALITY_ECONOMY" en="Economy" fr="Économie" de="Platzsparend" it="Economico" ru="Экономичное" es="Económico" zh="经济" ja="低"/>
+	<lanstr id="ID_STR_SHARPNESS_TITLE" en="Sharpness" fr="Nettete" de="Schärfe" it="Fuoco" ru="Резкий" es="Foco" zh="锐度" ja="シャープネス"/>
+	<lanstr id="ID_STR_SHARPNESS_STRONG" en="Strong" fr="Forte" de="Stark" it="Forte" ru="Сильный" es="Alta" zh="强烈" ja="強"/>
+	<lanstr id="ID_STR_SHARPNESS_SOFT" en="Soft" fr="Douce" de="Weich" it="Leggera" ru="Мягкий" es="Baja" zh="柔和" ja="ソフト"/>
+	<lanstr id="ID_STR_COLOR_TITLE" en="Color" fr="Couleur" de="Farbe" it="Colore" ru="Цветной" es="Color" zh="色彩" ja="カラー"/>
+	<lanstr id="ID_STR_COLOR_BW" en="Black &amp; white" fr="N/B" de="S/W" it="Bianco/nero" ru="Черно белый" es="B/N" zh="黑白" ja="黑白"/>
+	<lanstr id="ID_STR_COLOR_SE" en="Sepia" fr="Sépia" de="Sepia" it="Sepia" ru="Коричневый" es="Sepia" zh="棕褐色" ja="カラー"/>
+	<lanstr id="ID_STR_COLOR_SOFT" en="Soft" fr="Douce" de="Weich" it="Leggera" ru="Мягкий" es="Baja" zh="柔和" ja="セピア"/>
+
+    <lanstr id="ID_STR_MOTIONDETECT_SENSITIVITY" en="Sensitivity" fr="Sensibilité" de="Empfindlichkeit" it="sensibilità" ru="Обнаружение движения" es="Sensibilidad" zh="移动灵敏度" ja="モバイル感度"/>
+    <lanstr id="ID_STR_MOTIONDETECT" en="Motion Detection" fr="Détection de mouvement" de="Bewegungserkennung" it="Rilevazione del movimento" ru="чувствительность" es="Detección de movimiento" zh="移动侦测" ja="動き検出"/>
+    <lanstr id="ID_STR_LOW" en="Low" fr="Faible" de="Niedrig" it="basso" ru="низкий" es="bajo" zh="低" ja="低い"/>
+    <lanstr id="ID_STR_MID" en="Middle" fr="Milieu" de="Mitte" it="medio" ru="Ближнем" es="Medio" zh="中" ja="中"/>
+    <lanstr id="ID_STR_HIGH" en="High" fr="Haute" de="Hoch" it="elevato" ru="высокая" es="Alta" zh="高" ja="高い"/>
+    
+    <lanstr id="ID_STR_FILE_DEL" en="Delete" fr="Supprimer" de="Löschen" it="Elimina" ru="Удалить" es="Eliminar" zh="删除" ja="削除"/>
+    <lanstr id="ID_STR_DEL_CUR" en="Delete current file" fr="Supprimer ce ficher" de="Lösche die aktuelle Datei" it="Eliminare il file recente" ru="Удалить текущий файл" es="Eliminar el archivo" zh="删除当前" ja="現在のファイルを削除する"/>
+    <lanstr id="ID_STR_ASK_DELCUR" en="Delete it?" fr="Souhaitez-vous le supprimer" de="Lösche es?" it="Vuoi eliminare il file recente?" ru="Удали это?" es="Eliminar el archivo" zh="是否删除当前？" ja="現在のファイルを削除する"/>
+    <lanstr id="ID_STR_DEL_ALL" en="Delete all files" fr="Supprimer tous les fichers" de="Lösche alle Dateien" it="Eliminare tutti i file" ru="Удалить все файлы" es="Eliminar todo" zh="删除全部" ja="全てのファイルを削除する"/>
+    <lanstr id="ID_STR_ASK_DELALL" en="Delete all?" fr="Souhaitez-vous les supprimer" de="Alles löschen?" it="Vuoi eliminare tutti i file?" ru="Удалить все?" es="Eliminar todo" zh="是否删除全部？" ja="全てのファイルを削除する"/>
+    <lanstr id="ID_STR_DELETING" en="Deleting..." fr="Supprimer..." de="Zum löschen..." it="Cancella in..." ru="Удалить..." es="Eliminar..." zh="删除中..." ja="削除中..."/>
+</language>
